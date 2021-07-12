@@ -4,4 +4,39 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Login URL</description>
+      <initValue>'https://dev-v2.serpwatch.io/login'</initValue>
+      <name>LoginUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Username for Login</description>
+      <initValue>'ayatullah.arul@gmail.com'</initValue>
+      <name>LoginUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password for Login</description>
+      <initValue>'aaa101'</initValue>
+      <name>LoginPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>The longest timeout</description>
+      <initValue>10</initValue>
+      <name>LongestTimeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Medium timeout</description>
+      <initValue>5</initValue>
+      <name>MediumTimeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Short timeout</description>
+      <initValue>3</initValue>
+      <name>ShortTimeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>The shortest timeout</description>
+      <initValue>2</initValue>
+      <name>ShortestTimeout</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
