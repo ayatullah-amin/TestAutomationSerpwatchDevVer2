@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>create a project with name field with less than 2 characters.
+Expected: Cannot proceed to 2nd page of the setup.</description>
+   <name>CreateProjectWithNameFieldWithLessThan2CharactersTestCase</name>
+   <tag>create project</tag>
+   <comment></comment>
+   <testCaseGuid>8548c0d3-1e3c-4b7c-8dbf-81fb50593985</testCaseGuid>
+</TestCaseEntity>

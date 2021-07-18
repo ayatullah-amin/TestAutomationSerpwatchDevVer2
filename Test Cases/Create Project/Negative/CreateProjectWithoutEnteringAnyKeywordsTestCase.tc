@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create a project without entering any keywords.
+Expected: Cannot proceed to 2nd page of the setup</description>
+   <name>CreateProjectWithoutEnteringAnyKeywordsTestCase</name>
+   <tag>create project</tag>
+   <comment></comment>
+   <testCaseGuid>2e419b8b-cc6d-466a-b089-a6f44fe51118</testCaseGuid>
+</TestCaseEntity>

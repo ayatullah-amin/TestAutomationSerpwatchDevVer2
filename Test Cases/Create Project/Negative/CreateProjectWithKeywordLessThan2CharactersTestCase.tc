@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>create a project with keyword with less than 2 characters.
+Expected: Cannot proceed to 2nd page of the setup.</description>
+   <name>CreateProjectWithKeywordLessThan2CharactersTestCase</name>
+   <tag>create project</tag>
+   <comment></comment>
+   <testCaseGuid>2fbdd5ea-84c9-434f-a162-eb629bcd60a7</testCaseGuid>
+</TestCaseEntity>
