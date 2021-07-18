@@ -1,0 +1,23 @@
+{
+  "keywordFileContentHash": "36467044A49824098A3D6867157BA2AE",
+  "keywordClasses": [
+    {
+      "name": "com.helper.browserhelper.CustomBrowser",
+      "keywordMethods": [
+        {
+          "name": "openBrowser",
+          "parameters": []
+        },
+        {
+          "name": "openRegisterPage",
+          "parameters": []
+        },
+        {
+          "name": "closeBrowser",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

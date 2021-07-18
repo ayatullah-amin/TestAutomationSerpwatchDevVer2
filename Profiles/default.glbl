@@ -20,23 +20,8 @@
       <name>LoginPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>The longest timeout</description>
-      <initValue>10</initValue>
-      <name>LongestTimeout</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Medium timeout</description>
-      <initValue>5</initValue>
-      <name>MediumTimeout</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Short timeout</description>
-      <initValue>3</initValue>
-      <name>ShortTimeout</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>The shortest timeout</description>
-      <initValue>2</initValue>
-      <name>ShortestTimeout</name>
+      <description>Maximum Timeout</description>
+      <initValue>30</initValue>
+      <name>Timeout</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

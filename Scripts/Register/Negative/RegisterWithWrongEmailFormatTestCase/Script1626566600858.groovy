@@ -17,17 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.LoginUrl)
+CustomKeywords.'com.helper.browserhelper.CustomBrowser.openRegisterPage'()
 
-WebUI.delay(GlobalVariable.ShortTimeout)
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.setText(findTestObject('LoginPage_SerpWatch/input_sign in_email'), GlobalVariable.LoginUsername)
+WebUI.setText(findTestObject('RegisterPage/input_signup_name'), 'aabbbccc')
 
-WebUI.setText(findTestObject('LoginPage_SerpWatch/input_sign in_password'), GlobalVariable.LoginPassword)
+WebUI.setText(findTestObject('RegisterPage/input_signup_email'), 'aaabc')
 
-WebUI.click(findTestObject('LoginPage_SerpWatch/button_login'))
+WebUI.setText(findTestObject('RegisterPage/input_signup_password'), 'aaabbb')
 
-WebUI.delay(GlobalVariable.MediumTimeout)
+WebUI.setText(findTestObject('RegisterPage/input_signup_password_confirmation'), 'aaabbb')
 
-WebUI.closeBrowser()
+WebUI.check(findTestObject('RegisterPage/checkbox_agreement'))
 
+WebUI.click(findTestObject('RegisterPage/button_register'))
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+WebUI.delay(3)
+
+CustomKeywords.'com.helper.browserhelper.CustomBrowser.closeBrowser'()
