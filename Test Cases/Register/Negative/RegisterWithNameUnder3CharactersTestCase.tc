@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RegisterWithNameUnder3CharactersTestCase</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>87bd1d13-3cfe-4d3b-a1ab-5da29273ca60</testCaseGuid>
-</TestCaseEntity>

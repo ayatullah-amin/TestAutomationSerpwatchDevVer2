@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Create a project, click add competitor but do not fill the field.
-Expected: Cannot proceed to 2nd page of the setup</description>
-   <name>CreateProjectAndClickAddCompetitorButDoNotFillFieldTestCase</name>
-   <tag>create project</tag>
-   <comment></comment>
-   <testCaseGuid>f1140da5-3c52-4317-a0cc-712012417949</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>create a project using invalid domain format in the domain field.
+Expected: Cannot proceed to 2nd page of the setup</description>
+   <name>TS-CPR-30-CreateProjectUsingInvalidDomainFormatInDomainFieldTestCase</name>
+   <tag>create project</tag>
+   <comment></comment>
+   <testCaseGuid>344087ee-e1e5-4a9b-b953-bee4d691b830</testCaseGuid>
+</TestCaseEntity>

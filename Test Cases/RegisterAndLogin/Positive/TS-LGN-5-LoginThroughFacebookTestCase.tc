@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login By Facebook Account</description>
+   <name>TS-LGN-5-LoginThroughFacebookTestCase</name>
+   <tag>login</tag>
+   <comment></comment>
+   <testCaseGuid>3d3c13af-43d0-4689-8a0b-3cb0e18bd417</testCaseGuid>
+</TestCaseEntity>

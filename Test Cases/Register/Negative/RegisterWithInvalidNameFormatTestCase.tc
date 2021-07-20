@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Register With Invalid Name Format.
-Expected: Display error message &quot;The name format is invalid&quot; below the Name field.</description>
-   <name>RegisterWithInvalidNameFormatTestCase</name>
-   <tag>register</tag>
-   <comment></comment>
-   <testCaseGuid>381d2811-a091-408f-a6ea-78872a096232</testCaseGuid>
-</TestCaseEntity>

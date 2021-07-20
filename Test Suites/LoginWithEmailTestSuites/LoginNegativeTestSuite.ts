@@ -15,12 +15,12 @@
       <guid>e21790ef-53ed-468c-bf28-d130ac0bdb7a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Negative/LoginWithUnregisteredEmailTestCase</testCaseId>
+      <testCaseId>Test Cases/RegisterAndLogin/Negative/TS-LGN-24-LoginWithUnregisteredEmailTestCase</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5bcddafe-bc1a-41df-8377-cc225552d723</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Negative/LoginWithWrongPasswordTestCase</testCaseId>
+      <testCaseId>Test Cases/RegisterAndLogin/Negative/TS-LGN-25-LoginWithWrongPasswordTestCase</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

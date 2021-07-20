@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Login By Google Account</description>
-   <name>LoginByGoogleTestCase</name>
-   <tag>login</tag>
-   <comment></comment>
-   <testCaseGuid>51143752-ca0d-4f86-983e-517cc8c5c829</testCaseGuid>
-</TestCaseEntity>

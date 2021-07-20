@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>upload a csv without selecting any keywords.
-Expected: Csv no uploaded, user prompted to select at least one keyword</description>
-   <name>UploadCsvWithoutSelectingAnyKeywordsTestCase</name>
-   <tag>create project</tag>
-   <comment></comment>
-   <testCaseGuid>9444ff56-aaf0-42f3-ad47-376d709fef37</testCaseGuid>
-</TestCaseEntity>

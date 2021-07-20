@@ -1,23 +1,31 @@
 {
-  "keywordFileContentHash": "36467044A49824098A3D6867157BA2AE",
+  "keywordFileContentHash": "E5B3800EEAA93A028B04F36375BDB3F7",
   "keywordClasses": [
     {
       "name": "com.helper.browserhelper.CustomBrowser",
       "keywordMethods": [
         {
           "name": "openBrowser",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "openRegisterPage",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "login",
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "closeBrowser",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

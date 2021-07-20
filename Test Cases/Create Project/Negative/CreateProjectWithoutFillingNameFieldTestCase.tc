@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Create a project without filling the name field.
-Expected: Cannot proceed to 2nd page of the setup</description>
-   <name>CreateProjectWithoutFillingNameFieldTestCase</name>
-   <tag>create project</tag>
-   <comment></comment>
-   <testCaseGuid>545c6137-61b1-415e-813e-966cdf4708b5</testCaseGuid>
-</TestCaseEntity>

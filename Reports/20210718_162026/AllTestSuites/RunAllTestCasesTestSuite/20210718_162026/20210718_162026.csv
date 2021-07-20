@@ -1,0 +1,157 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RunAllTestCasesTestSuite,Chrome 91.0.4472.124,,,2021-07-18 16:20:36,2021-07-18 16:33:56,13m - 19.989s,ERROR
+,,,,,,,
+Test Cases/Login/Negative/LoginWithUnregisteredEmailTestCase,Chrome 91.0.4472.124,Login with Unregistered Email Test Case,login,2021-07-18 16:20:37,2021-07-18 16:21:14,37.291s,PASSED
+com.helper.browserhelper.CustomBrowser.openBrowser(),Chrome 91.0.4472.124,,,2021-07-18 16:20:39,2021-07-18 16:20:58,18.821s,PASSED
+"setText(findTestObject(""LoginPage_SerpWatch/input_sign in_email""), ""aaa@gmail.com"")",Chrome 91.0.4472.124,,,2021-07-18 16:20:58,2021-07-18 16:21:02,4.103s,PASSED
+"setText(findTestObject(""LoginPage_SerpWatch/input_sign in_password""), ""abc"")",Chrome 91.0.4472.124,,,2021-07-18 16:21:02,2021-07-18 16:21:03,0.886s,PASSED
+"click(findTestObject(""LoginPage_SerpWatch/button_login""))",Chrome 91.0.4472.124,,,2021-07-18 16:21:03,2021-07-18 16:21:12,9.482s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:21:12,2021-07-18 16:21:12,0.027s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Chrome 91.0.4472.124,,,2021-07-18 16:21:12,2021-07-18 16:21:14,1.902s,PASSED
+,,,,,,,
+Test Cases/Login/Negative/LoginWithWrongPasswordTestCase,Chrome 91.0.4472.124,Login With Wrong Password,login,2021-07-18 16:21:14,2021-07-18 16:21:40,25.982s,PASSED
+com.helper.browserhelper.CustomBrowser.openBrowser(),Chrome 91.0.4472.124,,,2021-07-18 16:21:15,2021-07-18 16:21:29,13.946s,PASSED
+"setText(findTestObject(""LoginPage_SerpWatch/input_sign in_email""), LoginUsername)",Chrome 91.0.4472.124,,,2021-07-18 16:21:29,2021-07-18 16:21:30,0.936s,PASSED
+"setText(findTestObject(""LoginPage_SerpWatch/input_sign in_password""), ""abc"")",Chrome 91.0.4472.124,,,2021-07-18 16:21:30,2021-07-18 16:21:30,0.830s,PASSED
+"click(findTestObject(""LoginPage_SerpWatch/button_login""))",Chrome 91.0.4472.124,,,2021-07-18 16:21:30,2021-07-18 16:21:38,7.842s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:21:38,2021-07-18 16:21:38,0.024s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Chrome 91.0.4472.124,,,2021-07-18 16:21:38,2021-07-18 16:21:40,1.663s,PASSED
+,,,,,,,
+Test Cases/Login/Positive/LoginByEmailTestCase,Chrome 91.0.4472.124,LoginTestCase,login,2021-07-18 16:21:40,2021-07-18 16:22:33,53.150s,ERROR
+openBrowser(LoginUrl),Chrome 91.0.4472.124,,,2021-07-18 16:21:41,2021-07-18 16:21:54,12.868s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:21:54,2021-07-18 16:21:54,0.037s,PASSED
+maximizeWindow(),Chrome 91.0.4472.124,,,2021-07-18 16:21:54,2021-07-18 16:21:54,0.192s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:21:54,2021-07-18 16:21:54,0.060s,PASSED
+"sendKeys(findTestObject(""LoginPage_SerpWatch/input_sign in_email""), LoginUsername)",Chrome 91.0.4472.124,,,2021-07-18 16:21:54,2021-07-18 16:21:55,0.678s,PASSED
+"sendKeys(findTestObject(""LoginPage_SerpWatch/input_sign in_password""), LoginPassword)",Chrome 91.0.4472.124,,,2021-07-18 16:21:55,2021-07-18 16:21:55,0.498s,PASSED
+"click(findTestObject(""LoginPage_SerpWatch/button_login""))",Chrome 91.0.4472.124,,,2021-07-18 16:21:55,2021-07-18 16:22:33,38.004s,PASSED
+waitForPageLoad(DelayMediumTimeout),Chrome 91.0.4472.124,,,2021-07-18 16:22:33,2021-07-18 16:22:33,0.003s,PASSED
+,,,,,,,
+Test Cases/Register/Negative/RegisterWithEmailFieldEmptyTestCase,Chrome 91.0.4472.124,"Register With Email Field Empty.
+Expected: Display error message ""please fill out this field"" on the email field.",register,2021-07-18 16:22:33,2021-07-18 16:23:39,1m - 5.953s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Chrome 91.0.4472.124,,,2021-07-18 16:22:34,2021-07-18 16:23:30,55.869s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:23:30,2021-07-18 16:23:30,0.030s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aaa"")",Chrome 91.0.4472.124,,,2021-07-18 16:23:30,2021-07-18 16:23:31,0.947s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), """")",Chrome 91.0.4472.124,,,2021-07-18 16:23:31,2021-07-18 16:23:32,0.861s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Chrome 91.0.4472.124,,,2021-07-18 16:23:32,2021-07-18 16:23:32,0.817s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaaaaa"")",Chrome 91.0.4472.124,,,2021-07-18 16:23:32,2021-07-18 16:23:33,0.858s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Chrome 91.0.4472.124,,,2021-07-18 16:23:33,2021-07-18 16:23:34,0.697s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Chrome 91.0.4472.124,,,2021-07-18 16:23:34,2021-07-18 16:23:35,0.613s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:23:35,2021-07-18 16:23:35,0.049s,PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-18 16:23:35,2021-07-18 16:23:38,3.067s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Chrome 91.0.4472.124,,,2021-07-18 16:23:38,2021-07-18 16:23:39,1.504s,PASSED
+,,,,,,,
+Test Cases/Register/Negative/RegisterWithInvalidNameFormatTestCase,Chrome 91.0.4472.124,"Register With Invalid Name Format.
+Expected: Display error message ""The name format is invalid"" below the Name field.",register,2021-07-18 16:23:39,2021-07-18 16:24:54,1m - 14.398s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Chrome 91.0.4472.124,,,2021-07-18 16:23:40,2021-07-18 16:24:34,54.227s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:24:34,2021-07-18 16:24:34,0.022s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""@#$@#$"")",Chrome 91.0.4472.124,,,2021-07-18 16:24:34,2021-07-18 16:24:35,0.847s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Chrome 91.0.4472.124,,,2021-07-18 16:24:35,2021-07-18 16:24:36,0.847s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Chrome 91.0.4472.124,,,2021-07-18 16:24:36,2021-07-18 16:24:37,0.798s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaaaaa"")",Chrome 91.0.4472.124,,,2021-07-18 16:24:37,2021-07-18 16:24:37,0.884s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Chrome 91.0.4472.124,,,2021-07-18 16:24:37,2021-07-18 16:24:38,0.535s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Chrome 91.0.4472.124,,,2021-07-18 16:24:38,2021-07-18 16:24:49,11.465s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:24:49,2021-07-18 16:24:49,0.023s,PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-18 16:24:49,2021-07-18 16:24:53,3.017s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Chrome 91.0.4472.124,,,2021-07-18 16:24:53,2021-07-18 16:24:54,1.025s,PASSED
+,,,,,,,
+Test Cases/Register/Negative/RegisterWithNameFieldEmptyTestCase,Chrome 91.0.4472.124,RegisterWithNameFieldEmpty,register,2021-07-18 16:24:54,2021-07-18 16:25:56,1m - 2.835s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Chrome 91.0.4472.124,,,2021-07-18 16:24:54,2021-07-18 16:25:48,53.637s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:25:48,2021-07-18 16:25:48,0.022s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), """")",Chrome 91.0.4472.124,,,2021-07-18 16:25:48,2021-07-18 16:25:49,0.790s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Chrome 91.0.4472.124,,,2021-07-18 16:25:49,2021-07-18 16:25:50,0.829s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Chrome 91.0.4472.124,,,2021-07-18 16:25:50,2021-07-18 16:25:50,0.840s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaaaaa"")",Chrome 91.0.4472.124,,,2021-07-18 16:25:50,2021-07-18 16:25:51,0.842s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Chrome 91.0.4472.124,,,2021-07-18 16:25:51,2021-07-18 16:25:52,0.510s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Chrome 91.0.4472.124,,,2021-07-18 16:25:52,2021-07-18 16:25:52,0.553s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:25:52,2021-07-18 16:25:52,0.024s,PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-18 16:25:52,2021-07-18 16:25:55,3.006s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Chrome 91.0.4472.124,,,2021-07-18 16:25:55,2021-07-18 16:25:56,1.063s,PASSED
+,,,,,,,
+Test Cases/Register/Negative/RegisterWithNameUnder3CharactersTestCase,Chrome 91.0.4472.124,RegisterWithNameUnder3CharactersTestCase,register,2021-07-18 16:25:56,2021-07-18 16:27:13,1m - 16.852s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Chrome 91.0.4472.124,,,2021-07-18 16:25:57,2021-07-18 16:26:50,52.954s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:26:50,2021-07-18 16:26:50,0.022s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aa"")",Chrome 91.0.4472.124,,,2021-07-18 16:26:50,2021-07-18 16:26:51,0.810s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Chrome 91.0.4472.124,,,2021-07-18 16:26:51,2021-07-18 16:26:52,0.859s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Chrome 91.0.4472.124,,,2021-07-18 16:26:52,2021-07-18 16:26:53,0.824s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaaaaa"")",Chrome 91.0.4472.124,,,2021-07-18 16:26:53,2021-07-18 16:26:54,0.831s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Chrome 91.0.4472.124,,,2021-07-18 16:26:54,2021-07-18 16:26:54,0.532s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Chrome 91.0.4472.124,,,2021-07-18 16:26:54,2021-07-18 16:27:09,15.041s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:27:09,2021-07-18 16:27:09,0.025s,PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-18 16:27:09,2021-07-18 16:27:12,3.012s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Chrome 91.0.4472.124,,,2021-07-18 16:27:12,2021-07-18 16:27:13,1.066s,PASSED
+,,,,,,,
+Test Cases/Register/Negative/RegisterWithNotMatchingPasswordConfirmTestCase,Chrome 91.0.4472.124,RegisterWithNotMatchingPasswordConfirmTestCase,register,2021-07-18 16:27:13,2021-07-18 16:28:28,1m - 14.371s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Chrome 91.0.4472.124,,,2021-07-18 16:27:14,2021-07-18 16:28:08,53.795s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:28:08,2021-07-18 16:28:08,0.034s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aabbbccc"")",Chrome 91.0.4472.124,,,2021-07-18 16:28:08,2021-07-18 16:28:09,0.829s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Chrome 91.0.4472.124,,,2021-07-18 16:28:09,2021-07-18 16:28:09,0.831s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Chrome 91.0.4472.124,,,2021-07-18 16:28:09,2021-07-18 16:28:10,0.831s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaabbb"")",Chrome 91.0.4472.124,,,2021-07-18 16:28:10,2021-07-18 16:28:11,0.823s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Chrome 91.0.4472.124,,,2021-07-18 16:28:11,2021-07-18 16:28:12,0.531s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Chrome 91.0.4472.124,,,2021-07-18 16:28:12,2021-07-18 16:28:23,11.839s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:28:23,2021-07-18 16:28:24,0.032s,PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-18 16:28:24,2021-07-18 16:28:27,3.006s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Chrome 91.0.4472.124,,,2021-07-18 16:28:27,2021-07-18 16:28:28,1.103s,PASSED
+,,,,,,,
+Test Cases/Register/Negative/RegisterWithoutAcceptingToSTestCase,Chrome 91.0.4472.124,RegisterWithoutAcceptingToSTestCase,register,2021-07-18 16:28:28,2021-07-18 16:29:37,1m - 9.815s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Chrome 91.0.4472.124,,,2021-07-18 16:28:28,2021-07-18 16:29:22,53.633s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:29:22,2021-07-18 16:29:22,0.024s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aabbbccc"")",Chrome 91.0.4472.124,,,2021-07-18 16:29:22,2021-07-18 16:29:23,0.821s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Chrome 91.0.4472.124,,,2021-07-18 16:29:23,2021-07-18 16:29:24,0.805s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Chrome 91.0.4472.124,,,2021-07-18 16:29:24,2021-07-18 16:29:24,0.811s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaaaaa"")",Chrome 91.0.4472.124,,,2021-07-18 16:29:24,2021-07-18 16:29:25,0.828s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Chrome 91.0.4472.124,,,2021-07-18 16:29:25,2021-07-18 16:29:26,0.577s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:29:26,2021-07-18 16:29:26,0.047s,PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-18 16:29:26,2021-07-18 16:29:29,3.011s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Chrome 91.0.4472.124,,,2021-07-18 16:29:29,2021-07-18 16:29:37,8.538s,PASSED
+,,,,,,,
+Test Cases/Register/Negative/RegisterWithoutFillingPasswordConfFieldTestCase,Chrome 91.0.4472.124,RegisterWithoutFillingPasswordConfField,register,2021-07-18 16:29:37,2021-07-18 16:30:38,1m - 0.204s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Chrome 91.0.4472.124,,,2021-07-18 16:29:38,2021-07-18 16:30:30,51.509s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:30:30,2021-07-18 16:30:30,0.033s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aabbbccc"")",Chrome 91.0.4472.124,,,2021-07-18 16:30:30,2021-07-18 16:30:31,0.868s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Chrome 91.0.4472.124,,,2021-07-18 16:30:31,2021-07-18 16:30:32,0.896s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Chrome 91.0.4472.124,,,2021-07-18 16:30:32,2021-07-18 16:30:32,0.853s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Chrome 91.0.4472.124,,,2021-07-18 16:30:32,2021-07-18 16:30:33,0.483s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Chrome 91.0.4472.124,,,2021-07-18 16:30:33,2021-07-18 16:30:33,0.577s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:30:33,2021-07-18 16:30:34,0.031s,PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-18 16:30:34,2021-07-18 16:30:37,3.015s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Chrome 91.0.4472.124,,,2021-07-18 16:30:37,2021-07-18 16:30:38,1.104s,PASSED
+,,,,,,,
+Test Cases/Register/Negative/RegisterWithPasswordFieldEmptyTestCase,Chrome 91.0.4472.124,RegisterWithPasswordFieldEmpty,register,2021-07-18 16:30:38,2021-07-18 16:31:39,1m - 1.269s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Chrome 91.0.4472.124,,,2021-07-18 16:30:38,2021-07-18 16:31:31,52.847s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:31:31,2021-07-18 16:31:31,0.022s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aabbbccc"")",Chrome 91.0.4472.124,,,2021-07-18 16:31:31,2021-07-18 16:31:32,0.817s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Chrome 91.0.4472.124,,,2021-07-18 16:31:32,2021-07-18 16:31:33,0.820s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaaaaa"")",Chrome 91.0.4472.124,,,2021-07-18 16:31:33,2021-07-18 16:31:34,0.816s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Chrome 91.0.4472.124,,,2021-07-18 16:31:34,2021-07-18 16:31:34,0.521s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Chrome 91.0.4472.124,,,2021-07-18 16:31:34,2021-07-18 16:31:35,0.557s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:31:35,2021-07-18 16:31:35,0.028s,PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-18 16:31:35,2021-07-18 16:31:38,3.008s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Chrome 91.0.4472.124,,,2021-07-18 16:31:38,2021-07-18 16:31:39,1.054s,PASSED
+,,,,,,,
+Test Cases/Register/Negative/RegisterWithPasswordUnder6CharactersTestCase,Chrome 91.0.4472.124,RegisterWithPasswordUnderSixCharacters,register,2021-07-18 16:31:39,2021-07-18 16:32:54,1m - 14.625s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Chrome 91.0.4472.124,,,2021-07-18 16:31:40,2021-07-18 16:32:32,52.841s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:32:32,2021-07-18 16:32:33,0.028s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aabbbccc"")",Chrome 91.0.4472.124,,,2021-07-18 16:32:33,2021-07-18 16:32:33,0.911s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Chrome 91.0.4472.124,,,2021-07-18 16:32:33,2021-07-18 16:32:34,0.817s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaa"")",Chrome 91.0.4472.124,,,2021-07-18 16:32:34,2021-07-18 16:32:35,0.825s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaa"")",Chrome 91.0.4472.124,,,2021-07-18 16:32:35,2021-07-18 16:32:36,0.853s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Chrome 91.0.4472.124,,,2021-07-18 16:32:36,2021-07-18 16:32:36,0.485s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Chrome 91.0.4472.124,,,2021-07-18 16:32:36,2021-07-18 16:32:49,12.964s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:32:49,2021-07-18 16:32:49,0.021s,PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-18 16:32:49,2021-07-18 16:32:52,3.008s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Chrome 91.0.4472.124,,,2021-07-18 16:32:52,2021-07-18 16:32:54,1.151s,PASSED
+,,,,,,,
+Test Cases/Register/Negative/RegisterWithWrongEmailFormatTestCase,Chrome 91.0.4472.124,RegisterWithWrongEmailFormat,register,2021-07-18 16:32:54,2021-07-18 16:33:56,1m - 2.374s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Chrome 91.0.4472.124,,,2021-07-18 16:32:54,2021-07-18 16:33:47,53.186s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:33:47,2021-07-18 16:33:47,0.029s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aabbbccc"")",Chrome 91.0.4472.124,,,2021-07-18 16:33:47,2021-07-18 16:33:48,0.806s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaabc"")",Chrome 91.0.4472.124,,,2021-07-18 16:33:48,2021-07-18 16:33:49,0.799s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaabbb"")",Chrome 91.0.4472.124,,,2021-07-18 16:33:49,2021-07-18 16:33:50,0.814s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaabbb"")",Chrome 91.0.4472.124,,,2021-07-18 16:33:50,2021-07-18 16:33:51,0.834s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Chrome 91.0.4472.124,,,2021-07-18 16:33:51,2021-07-18 16:33:51,0.513s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Chrome 91.0.4472.124,,,2021-07-18 16:33:51,2021-07-18 16:33:52,0.536s,PASSED
+waitForPageLoad(Timeout),Chrome 91.0.4472.124,,,2021-07-18 16:33:52,2021-07-18 16:33:52,0.028s,PASSED
+delay(3),Chrome 91.0.4472.124,,,2021-07-18 16:33:52,2021-07-18 16:33:55,3.004s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Chrome 91.0.4472.124,,,2021-07-18 16:33:55,2021-07-18 16:33:56,1.102s,PASSED

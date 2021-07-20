@@ -15,6 +15,6 @@
       <guid>bf4e768a-07fe-4957-9674-de19167ed8bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Positive/LoginByEmailTestCase</testCaseId>
+      <testCaseId>Test Cases/RegisterAndLogin/Positive/TS-LGN-4-LoginThroughTheAppTestCase</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

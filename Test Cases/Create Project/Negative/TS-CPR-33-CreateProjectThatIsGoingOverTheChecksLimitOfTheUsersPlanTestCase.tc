@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create project that is going over the checks limit of the users plan.
+Expected: User cannot complete project setup, is prompted to upgrade the plan</description>
+   <name>TS-CPR-33-CreateProjectThatIsGoingOverTheChecksLimitOfTheUsersPlanTestCase</name>
+   <tag>create project</tag>
+   <comment></comment>
+   <testCaseGuid>310d6043-571a-44d2-97e0-17c93db6c068</testCaseGuid>
+</TestCaseEntity>

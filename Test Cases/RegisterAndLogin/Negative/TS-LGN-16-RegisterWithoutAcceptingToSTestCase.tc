@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>RegisterWithoutAcceptingToSTestCase</description>
+   <name>TS-LGN-16-RegisterWithoutAcceptingToSTestCase</name>
+   <tag>register</tag>
+   <comment></comment>
+   <testCaseGuid>c580fb40-b576-449d-bf80-d9057d00774b</testCaseGuid>
+</TestCaseEntity>

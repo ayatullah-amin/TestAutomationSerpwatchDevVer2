@@ -34,7 +34,17 @@ public class CustomBrowser {
 	public void openRegisterPage() {
 		WebUI.openBrowser(GlobalVariable.LoginUrl)
 		WebUI.maximizeWindow()
-		WebUI.click(findTestObject('LoginPage_SerpWatch/button_get_started'))
+		WebUI.click(findTestObject('LoginPage/button_get_started'))
+	}
+	
+	@Keyword
+	public void login() {
+		openBrowser()
+		WebUI.waitForPageLoad(GlobalVariable.Timeout)
+		WebUI.sendKeys(findTestObject('LoginPage/input_sign in_email'), GlobalVariable.LoginUsername)
+		WebUI.sendKeys(findTestObject('LoginPage/input_sign in_password'), GlobalVariable.LoginPassword)
+		WebUI.click(findTestObject('LoginPage/button_login'))
+		WebUI.waitForPageLoad(GlobalVariable.Timeout)
 	}
 
 	@Keyword

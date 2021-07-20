@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Create a project without any engines/devices selected.
-Expected: Cannot proceed to 3rd page of the setup</description>
-   <name>CreateProjectWithoutAnyEnginesOrDevicesSelectedTestCase</name>
-   <tag>create project</tag>
-   <comment></comment>
-   <testCaseGuid>4e836658-a547-4d5c-b453-a538c9e3921e</testCaseGuid>
-</TestCaseEntity>

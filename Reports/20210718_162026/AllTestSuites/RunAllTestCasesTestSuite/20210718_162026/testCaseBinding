@@ -1,0 +1,13 @@
+{"testCaseName":"Test Cases/Login/Negative/LoginWithUnregisteredEmailTestCase","testCaseId":"Test Cases/Login/Negative/LoginWithUnregisteredEmailTestCase"}
+{"testCaseName":"Test Cases/Login/Negative/LoginWithWrongPasswordTestCase","testCaseId":"Test Cases/Login/Negative/LoginWithWrongPasswordTestCase"}
+{"testCaseName":"Test Cases/Login/Positive/LoginByEmailTestCase","testCaseId":"Test Cases/Login/Positive/LoginByEmailTestCase"}
+{"testCaseName":"Test Cases/Register/Negative/RegisterWithEmailFieldEmptyTestCase","testCaseId":"Test Cases/Register/Negative/RegisterWithEmailFieldEmptyTestCase"}
+{"testCaseName":"Test Cases/Register/Negative/RegisterWithInvalidNameFormatTestCase","testCaseId":"Test Cases/Register/Negative/RegisterWithInvalidNameFormatTestCase"}
+{"testCaseName":"Test Cases/Register/Negative/RegisterWithNameFieldEmptyTestCase","testCaseId":"Test Cases/Register/Negative/RegisterWithNameFieldEmptyTestCase"}
+{"testCaseName":"Test Cases/Register/Negative/RegisterWithNameUnder3CharactersTestCase","testCaseId":"Test Cases/Register/Negative/RegisterWithNameUnder3CharactersTestCase"}
+{"testCaseName":"Test Cases/Register/Negative/RegisterWithNotMatchingPasswordConfirmTestCase","testCaseId":"Test Cases/Register/Negative/RegisterWithNotMatchingPasswordConfirmTestCase"}
+{"testCaseName":"Test Cases/Register/Negative/RegisterWithoutAcceptingToSTestCase","testCaseId":"Test Cases/Register/Negative/RegisterWithoutAcceptingToSTestCase"}
+{"testCaseName":"Test Cases/Register/Negative/RegisterWithoutFillingPasswordConfFieldTestCase","testCaseId":"Test Cases/Register/Negative/RegisterWithoutFillingPasswordConfFieldTestCase"}
+{"testCaseName":"Test Cases/Register/Negative/RegisterWithPasswordFieldEmptyTestCase","testCaseId":"Test Cases/Register/Negative/RegisterWithPasswordFieldEmptyTestCase"}
+{"testCaseName":"Test Cases/Register/Negative/RegisterWithPasswordUnder6CharactersTestCase","testCaseId":"Test Cases/Register/Negative/RegisterWithPasswordUnder6CharactersTestCase"}
+{"testCaseName":"Test Cases/Register/Negative/RegisterWithWrongEmailFormatTestCase","testCaseId":"Test Cases/Register/Negative/RegisterWithWrongEmailFormatTestCase"}

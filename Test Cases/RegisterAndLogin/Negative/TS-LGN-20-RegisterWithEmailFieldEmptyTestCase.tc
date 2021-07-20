@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Register With Email Field Empty.
+Expected: Display error message &quot;please fill out this field&quot; on the email field.</description>
+   <name>TS-LGN-20-RegisterWithEmailFieldEmptyTestCase</name>
+   <tag>register</tag>
+   <comment></comment>
+   <testCaseGuid>a657ca8d-b0cd-4f40-b092-e3e1a4fc4a60</testCaseGuid>
+</TestCaseEntity>
