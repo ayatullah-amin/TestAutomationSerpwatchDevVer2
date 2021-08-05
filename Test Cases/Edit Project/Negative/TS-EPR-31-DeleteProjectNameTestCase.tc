@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Delete project name.
+Expected: User cannot proceed to 2nd page of the setup</description>
+   <name>TS-EPR-31-DeleteProjectNameTestCase</name>
+   <tag>edit project</tag>
+   <comment></comment>
+   <testCaseGuid>f94229ed-fe3d-4625-a857-874b6d6a9eba</testCaseGuid>
+</TestCaseEntity>

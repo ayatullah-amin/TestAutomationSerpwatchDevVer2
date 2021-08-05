@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Delete a project without typing the confirmation.
+Expected: Project not deleted.</description>
+   <name>TS-DSB-20-DeleteProjectWithoutTypingConfirmationTestCase</name>
+   <tag>dashboard</tag>
+   <comment></comment>
+   <testCaseGuid>3db2983f-6a51-423e-8eec-4efc64cb3513</testCaseGuid>
+</TestCaseEntity>

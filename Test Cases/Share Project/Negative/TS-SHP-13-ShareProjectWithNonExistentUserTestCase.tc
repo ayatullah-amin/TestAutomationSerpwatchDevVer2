@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Share project with non existent user .
+Expected: Project is not shared, email is left on pending</description>
+   <name>TS-SHP-13-ShareProjectWithNonExistentUserTestCase</name>
+   <tag>share project</tag>
+   <comment></comment>
+   <testCaseGuid>37dc1f5d-39a1-4f86-88bb-22bc7d66a74c</testCaseGuid>
+</TestCaseEntity>

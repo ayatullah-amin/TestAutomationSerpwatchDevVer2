@@ -36,7 +36,7 @@ public class CustomBrowser {
 		WebUI.maximizeWindow()
 		WebUI.click(findTestObject('LoginPage/button_get_started'))
 	}
-	
+
 	@Keyword
 	public void login() {
 		openBrowser()

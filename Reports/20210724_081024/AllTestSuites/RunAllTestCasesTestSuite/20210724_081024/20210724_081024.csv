@@ -1,0 +1,595 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RunAllTestCasesTestSuite,Firefox 90.0,,,2021-07-24 08:10:36,2021-07-24 08:54:26,43m - 50.593s,FAILED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-24-LoginWithUnregisteredEmailTestCase,Firefox 90.0,Login with Unregistered Email Test Case,login,2021-07-24 08:10:36,2021-07-24 08:11:04,27.434s,PASSED
+com.helper.browserhelper.CustomBrowser.openBrowser(),Firefox 90.0,,,2021-07-24 08:10:37,2021-07-24 08:10:55,18.413s,PASSED
+"setText(findTestObject(""LoginPage/input_sign in_email""), ""aaa@gmail.com"")",Firefox 90.0,,,2021-07-24 08:10:55,2021-07-24 08:10:56,1.022s,PASSED
+"setText(findTestObject(""LoginPage/input_sign in_password""), ""abc"")",Firefox 90.0,,,2021-07-24 08:10:56,2021-07-24 08:10:57,0.916s,PASSED
+"click(findTestObject(""LoginPage/button_login""))",Firefox 90.0,,,2021-07-24 08:10:57,2021-07-24 08:11:01,3.645s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:11:01,2021-07-24 08:11:01,0.093s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:11:01,2021-07-24 08:11:04,2.803s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-25-LoginWithWrongPasswordTestCase,Firefox 90.0,Login With Wrong Password,login,2021-07-24 08:11:04,2021-07-24 08:11:28,24.126s,PASSED
+com.helper.browserhelper.CustomBrowser.openBrowser(),Firefox 90.0,,,2021-07-24 08:11:04,2021-07-24 08:11:19,14.868s,PASSED
+"setText(findTestObject(""LoginPage/input_sign in_email""), LoginUsername)",Firefox 90.0,,,2021-07-24 08:11:19,2021-07-24 08:11:20,0.754s,PASSED
+"setText(findTestObject(""LoginPage/input_sign in_password""), ""abc"")",Firefox 90.0,,,2021-07-24 08:11:20,2021-07-24 08:11:21,0.923s,PASSED
+"click(findTestObject(""LoginPage/button_login""))",Firefox 90.0,,,2021-07-24 08:11:21,2021-07-24 08:11:26,5.075s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:11:26,2021-07-24 08:11:26,0.030s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:11:26,2021-07-24 08:11:28,2.090s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Positive/TS-LGN-4-LoginThroughTheAppTestCase,Firefox 90.0,LoginTestCase,login,2021-07-24 08:11:28,2021-07-24 08:12:10,41.561s,PASSED
+openBrowser(LoginUrl),Firefox 90.0,,,2021-07-24 08:11:28,2021-07-24 08:11:57,28.483s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:11:57,2021-07-24 08:11:57,0.051s,PASSED
+maximizeWindow(),Firefox 90.0,,,2021-07-24 08:11:57,2021-07-24 08:11:57,0.027s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:11:57,2021-07-24 08:11:57,0.035s,PASSED
+"sendKeys(findTestObject(""LoginPage/input_sign in_email""), LoginUsername)",Firefox 90.0,,,2021-07-24 08:11:57,2021-07-24 08:11:57,0.542s,PASSED
+"sendKeys(findTestObject(""LoginPage/input_sign in_password""), LoginPassword)",Firefox 90.0,,,2021-07-24 08:11:57,2021-07-24 08:11:58,0.420s,PASSED
+"click(findTestObject(""LoginPage/button_login""))",Firefox 90.0,,,2021-07-24 08:11:58,2021-07-24 08:12:06,8.314s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:12:06,2021-07-24 08:12:06,0.144s,PASSED
+closeBrowser(),Firefox 90.0,,,2021-07-24 08:12:06,2021-07-24 08:12:10,3.133s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-20-RegisterWithEmailFieldEmptyTestCase,Firefox 90.0,"Register With Email Field Empty.
+Expected: Display error message ""please fill out this field"" on the email field.",register,2021-07-24 08:12:10,2021-07-24 08:12:45,35.869s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 90.0,,,2021-07-24 08:12:10,2021-07-24 08:12:31,21.198s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:12:31,2021-07-24 08:12:31,0.316s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aaa"")",Firefox 90.0,,,2021-07-24 08:12:31,2021-07-24 08:12:33,1.410s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), """")",Firefox 90.0,,,2021-07-24 08:12:33,2021-07-24 08:12:36,2.706s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Firefox 90.0,,,2021-07-24 08:12:36,2021-07-24 08:12:36,0.805s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaaaaa"")",Firefox 90.0,,,2021-07-24 08:12:36,2021-07-24 08:12:37,0.986s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Firefox 90.0,,,2021-07-24 08:12:37,2021-07-24 08:12:38,0.813s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 90.0,,,2021-07-24 08:12:38,2021-07-24 08:12:40,1.425s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:12:40,2021-07-24 08:12:40,0.014s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:12:40,2021-07-24 08:12:43,3.038s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:12:43,2021-07-24 08:12:45,2.783s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-15-RegisterWithInvalidNameFormatTestCase,Firefox 90.0,"Register With Invalid Name Format.
+Expected: Display error message ""The name format is invalid"" below the Name field.",register,2021-07-24 08:12:45,2021-07-24 08:13:25,39.304s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 90.0,,,2021-07-24 08:12:46,2021-07-24 08:13:09,22.865s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:13:09,2021-07-24 08:13:09,0.226s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""@#$@#$"")",Firefox 90.0,,,2021-07-24 08:13:09,2021-07-24 08:13:10,1.144s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Firefox 90.0,,,2021-07-24 08:13:10,2021-07-24 08:13:11,1.081s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Firefox 90.0,,,2021-07-24 08:13:11,2021-07-24 08:13:12,0.948s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaaaaa"")",Firefox 90.0,,,2021-07-24 08:13:12,2021-07-24 08:13:13,0.993s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Firefox 90.0,,,2021-07-24 08:13:13,2021-07-24 08:13:14,0.711s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 90.0,,,2021-07-24 08:13:14,2021-07-24 08:13:19,5.466s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:13:19,2021-07-24 08:13:19,0.039s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:13:19,2021-07-24 08:13:22,3.010s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:13:22,2021-07-24 08:13:25,2.438s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-19-RegisterWithNameFieldEmptyTestCase,Firefox 90.0,RegisterWithNameFieldEmpty,register,2021-07-24 08:13:25,2021-07-24 08:14:08,43.333s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 90.0,,,2021-07-24 08:13:25,2021-07-24 08:13:45,20.221s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:13:45,2021-07-24 08:13:46,0.596s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), """")",Firefox 90.0,,,2021-07-24 08:13:46,2021-07-24 08:13:51,4.876s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Firefox 90.0,,,2021-07-24 08:13:51,2021-07-24 08:13:57,5.957s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Firefox 90.0,,,2021-07-24 08:13:57,2021-07-24 08:13:59,1.845s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaaaaa"")",Firefox 90.0,,,2021-07-24 08:13:59,2021-07-24 08:14:00,1.339s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Firefox 90.0,,,2021-07-24 08:14:00,2021-07-24 08:14:01,1.009s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 90.0,,,2021-07-24 08:14:01,2021-07-24 08:14:02,0.850s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:14:02,2021-07-24 08:14:02,0.051s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:14:02,2021-07-24 08:14:05,3.016s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:14:05,2021-07-24 08:14:08,3.181s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-14-RegisterWithNameUnder3CharactersTestCase,Firefox 90.0,RegisterWithNameUnder3CharactersTestCase,register,2021-07-24 08:14:08,2021-07-24 08:14:49,40.971s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 90.0,,,2021-07-24 08:14:09,2021-07-24 08:14:31,22.876s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:14:31,2021-07-24 08:14:32,0.355s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aa"")",Firefox 90.0,,,2021-07-24 08:14:32,2021-07-24 08:14:33,1.202s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Firefox 90.0,,,2021-07-24 08:14:33,2021-07-24 08:14:34,1.031s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Firefox 90.0,,,2021-07-24 08:14:34,2021-07-24 08:14:35,0.923s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaaaaa"")",Firefox 90.0,,,2021-07-24 08:14:35,2021-07-24 08:14:36,0.923s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Firefox 90.0,,,2021-07-24 08:14:36,2021-07-24 08:14:37,0.648s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 90.0,,,2021-07-24 08:14:37,2021-07-24 08:14:43,6.033s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:14:43,2021-07-24 08:14:43,0.028s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:14:43,2021-07-24 08:14:46,3.014s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:14:46,2021-07-24 08:14:49,3.476s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-17-RegisterWithNotMatchingPasswordConfirmTestCase,Firefox 90.0,RegisterWithNotMatchingPasswordConfirmTestCase,register,2021-07-24 08:14:49,2021-07-24 08:15:33,44.339s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 90.0,,,2021-07-24 08:14:50,2021-07-24 08:15:08,18.722s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:15:08,2021-07-24 08:15:09,0.272s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aabbbccc"")",Firefox 90.0,,,2021-07-24 08:15:09,2021-07-24 08:15:10,1.810s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Firefox 90.0,,,2021-07-24 08:15:10,2021-07-24 08:15:11,0.989s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Firefox 90.0,,,2021-07-24 08:15:11,2021-07-24 08:15:12,0.985s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaabbb"")",Firefox 90.0,,,2021-07-24 08:15:12,2021-07-24 08:15:13,0.965s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Firefox 90.0,,,2021-07-24 08:15:13,2021-07-24 08:15:14,0.608s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 90.0,,,2021-07-24 08:15:14,2021-07-24 08:15:20,5.673s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:15:20,2021-07-24 08:15:20,0.035s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:15:20,2021-07-24 08:15:23,3.014s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:15:23,2021-07-24 08:15:33,10.810s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-16-RegisterWithoutAcceptingToSTestCase,Firefox 90.0,RegisterWithoutAcceptingToSTestCase,register,2021-07-24 08:15:33,2021-07-24 08:16:53,1m - 19.490s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 90.0,,,2021-07-24 08:15:34,2021-07-24 08:16:41,1m - 7.046s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:16:41,2021-07-24 08:16:41,0.200s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aabbbccc"")",Firefox 90.0,,,2021-07-24 08:16:41,2021-07-24 08:16:42,1.445s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Firefox 90.0,,,2021-07-24 08:16:42,2021-07-24 08:16:43,0.940s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Firefox 90.0,,,2021-07-24 08:16:43,2021-07-24 08:16:44,0.941s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaaaaa"")",Firefox 90.0,,,2021-07-24 08:16:44,2021-07-24 08:16:45,0.879s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 90.0,,,2021-07-24 08:16:45,2021-07-24 08:16:46,0.635s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:16:46,2021-07-24 08:16:46,0.024s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:16:46,2021-07-24 08:16:49,3.011s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:16:49,2021-07-24 08:16:53,4.008s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-18-RegisterWithoutFillingPasswordConfFieldTestCase,Firefox 90.0,RegisterWithoutFillingPasswordConfField,register,2021-07-24 08:16:53,2021-07-24 08:17:37,44.367s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 90.0,,,2021-07-24 08:16:53,2021-07-24 08:17:26,32.979s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:17:26,2021-07-24 08:17:26,0.172s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aabbbccc"")",Firefox 90.0,,,2021-07-24 08:17:26,2021-07-24 08:17:28,1.320s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Firefox 90.0,,,2021-07-24 08:17:28,2021-07-24 08:17:29,0.997s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Firefox 90.0,,,2021-07-24 08:17:29,2021-07-24 08:17:30,0.905s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Firefox 90.0,,,2021-07-24 08:17:30,2021-07-24 08:17:30,0.677s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 90.0,,,2021-07-24 08:17:30,2021-07-24 08:17:31,0.648s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:17:31,2021-07-24 08:17:31,0.025s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:17:31,2021-07-24 08:17:34,3.015s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:17:34,2021-07-24 08:17:37,3.251s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-21-RegisterWithPasswordFieldEmptyTestCase,Firefox 90.0,RegisterWithPasswordFieldEmpty,register,2021-07-24 08:17:37,2021-07-24 08:18:40,1m - 3.145s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 90.0,,,2021-07-24 08:17:38,2021-07-24 08:18:14,36.340s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:18:14,2021-07-24 08:18:15,0.537s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aabbbccc"")",Firefox 90.0,,,2021-07-24 08:18:15,2021-07-24 08:18:17,2.334s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Firefox 90.0,,,2021-07-24 08:18:17,2021-07-24 08:18:21,3.735s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaaaaa"")",Firefox 90.0,,,2021-07-24 08:18:21,2021-07-24 08:18:23,2.750s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Firefox 90.0,,,2021-07-24 08:18:23,2021-07-24 08:18:25,1.403s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 90.0,,,2021-07-24 08:18:25,2021-07-24 08:18:26,0.853s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:18:26,2021-07-24 08:18:26,0.012s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:18:26,2021-07-24 08:18:29,3.013s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:18:29,2021-07-24 08:18:40,11.777s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-13-RegisterWithPasswordUnder6CharactersTestCase,Firefox 90.0,RegisterWithPasswordUnderSixCharacters,register,2021-07-24 08:18:40,2021-07-24 08:20:49,2m - 8.843s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 90.0,,,2021-07-24 08:18:41,2021-07-24 08:19:53,1m - 11.649s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:19:53,2021-07-24 08:19:53,0.148s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aabbbccc"")",Firefox 90.0,,,2021-07-24 08:19:53,2021-07-24 08:19:55,2.497s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Firefox 90.0,,,2021-07-24 08:19:55,2021-07-24 08:20:05,9.413s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaa"")",Firefox 90.0,,,2021-07-24 08:20:05,2021-07-24 08:20:06,1.060s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaa"")",Firefox 90.0,,,2021-07-24 08:20:06,2021-07-24 08:20:07,0.976s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Firefox 90.0,,,2021-07-24 08:20:07,2021-07-24 08:20:07,0.641s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 90.0,,,2021-07-24 08:20:07,2021-07-24 08:20:23,16.011s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:20:23,2021-07-24 08:20:23,0.023s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:20:23,2021-07-24 08:20:26,3.011s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:20:26,2021-07-24 08:20:49,23.020s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-12-RegisterWithWrongEmailFormatTestCase,Firefox 90.0,RegisterWithWrongEmailFormat,register,2021-07-24 08:20:49,2021-07-24 08:21:55,1m - 5.866s,FAILED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 90.0,,,2021-07-24 08:20:50,2021-07-24 08:21:55,1m - 5.516s,FAILED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-27-CreateProjectAndClickAddCompetitorButDoNotFillFieldTestCase,Firefox 90.0,"Create a project, click add competitor but do not fill the field.
+Expected: Cannot proceed to 2nd page of the setup",create project,2021-07-24 08:21:55,2021-07-24 08:24:35,2m - 39.415s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:21:56,2021-07-24 08:23:14,1m - 18.076s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:23:14,2021-07-24 08:23:15,1.219s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:23:15,2021-07-24 08:23:16,0.681s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:23:16,2021-07-24 08:23:16,0.645s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/FormPage_1/input_project_name""), Timeout)",Firefox 90.0,,,2021-07-24 08:23:16,2021-07-24 08:23:20,3.231s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_project_name""), ProjectNameText)",Firefox 90.0,,,2021-07-24 08:23:20,2021-07-24 08:23:28,8.866s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), DomainText1)",Firefox 90.0,,,2021-07-24 08:23:28,2021-07-24 08:23:30,1.922s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_add_competitor""))",Firefox 90.0,,,2021-07-24 08:23:30,2021-07-24 08:23:33,2.228s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), AddYourKeywordText)",Firefox 90.0,,,2021-07-24 08:23:33,2021-07-24 08:23:34,0.977s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:23:34,2021-07-24 08:23:36,2.455s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:23:36,2021-07-24 08:23:36,0.021s,PASSED
+"focus(findTestObject(""CreateNewProject/FormPage_1/input_domain_competitors""))",Firefox 90.0,,,2021-07-24 08:23:36,2021-07-24 08:23:37,0.660s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:23:37,2021-07-24 08:23:40,3.019s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:23:40,2021-07-24 08:24:35,55.031s,PASSED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-33-CreateProjectThatIsGoingOverTheChecksLimitOfTheUsersPlanTestCase,Firefox 90.0,"Create project that is going over the checks limit of the users plan.
+Expected: User cannot complete project setup, is prompted to upgrade the plan",create project,2021-07-24 08:24:35,2021-07-24 08:25:39,1m - 4.721s,FAILED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:24:35,2021-07-24 08:25:39,1m - 4.364s,FAILED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-30-CreateProjectUsingInvalidDomainFormatInDomainFieldTestCase,Firefox 90.0,"create a project using invalid domain format in the domain field.
+Expected: Cannot proceed to 2nd page of the setup",create project,2021-07-24 08:25:39,2021-07-24 08:27:32,1m - 52.955s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:25:40,2021-07-24 08:26:59,1m - 18.954s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:26:59,2021-07-24 08:27:06,6.471s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:27:06,2021-07-24 08:27:08,2.428s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:27:08,2021-07-24 08:27:09,0.703s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:27:09,2021-07-24 08:27:14,5.196s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_project_name""), ProjectNameText)",Firefox 90.0,,,2021-07-24 08:27:14,2021-07-24 08:27:23,8.734s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), ""2341sf"")",Firefox 90.0,,,2021-07-24 08:27:23,2021-07-24 08:27:24,1.795s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:27:24,2021-07-24 08:27:25,0.601s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), AddYourKeywordText)",Firefox 90.0,,,2021-07-24 08:27:25,2021-07-24 08:27:26,0.744s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:27:26,2021-07-24 08:27:27,0.821s,PASSED
+"focus(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""))",Firefox 90.0,,,2021-07-24 08:27:27,2021-07-24 08:27:27,0.375s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:27:27,2021-07-24 08:27:30,3.008s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:27:30,2021-07-24 08:27:32,2.474s,PASSED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-31-CreateProjectWithKeywordLessThan2CharactersTestCase,Firefox 90.0,"create a project with keyword with less than 2 characters.
+Expected: Cannot proceed to 2nd page of the setup.",create project,2021-07-24 08:27:32,2021-07-24 08:28:21,48.504s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:27:33,2021-07-24 08:27:58,25.422s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:27:58,2021-07-24 08:27:59,1.009s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:27:59,2021-07-24 08:28:00,0.741s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:28:00,2021-07-24 08:28:01,0.658s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:28:01,2021-07-24 08:28:04,3.035s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), DomainText1)",Firefox 90.0,,,2021-07-24 08:28:04,2021-07-24 08:28:12,8.551s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:28:12,2021-07-24 08:28:13,0.408s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), ""q"")",Firefox 90.0,,,2021-07-24 08:28:13,2021-07-24 08:28:13,0.713s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:28:13,2021-07-24 08:28:14,0.830s,PASSED
+"focus(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""))",Firefox 90.0,,,2021-07-24 08:28:14,2021-07-24 08:28:15,0.374s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:28:15,2021-07-24 08:28:18,3.015s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:28:18,2021-07-24 08:28:21,3.382s,PASSED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-29-CreateProjectWithNameFieldWithLessThan2CharactersTestCase,Firefox 90.0,"create a project with name field with less than 2 characters.
+Expected: Cannot proceed to 2nd page of the setup.",create project,2021-07-24 08:28:21,2021-07-24 08:29:13,51.705s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:28:21,2021-07-24 08:28:48,26.946s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:28:48,2021-07-24 08:28:50,1.236s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:28:50,2021-07-24 08:28:50,0.683s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:28:50,2021-07-24 08:28:51,0.648s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/FormPage_1/input_project_name""), Timeout)",Firefox 90.0,,,2021-07-24 08:28:51,2021-07-24 08:29:02,10.871s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_project_name""), ""S"")",Firefox 90.0,,,2021-07-24 08:29:02,2021-07-24 08:29:03,0.946s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), DomainText1)",Firefox 90.0,,,2021-07-24 08:29:03,2021-07-24 08:29:04,0.934s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), AddYourKeywordText)",Firefox 90.0,,,2021-07-24 08:29:04,2021-07-24 08:29:04,0.755s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:29:04,2021-07-24 08:29:05,0.796s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:29:05,2021-07-24 08:29:05,0.015s,PASSED
+"focus(findTestObject(""CreateNewProject/FormPage_1/input_project_name""))",Firefox 90.0,,,2021-07-24 08:29:05,2021-07-24 08:29:07,1.828s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:29:07,2021-07-24 08:29:10,3.005s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:29:10,2021-07-24 08:29:13,2.674s,PASSED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-28-CreateProjectWithoutAnyEnginesOrDevicesSelectedTestCase,Firefox 90.0,"Create a project without any engines/devices selected.
+Expected: Cannot proceed to 3rd page of the setup",create project,2021-07-24 08:29:13,2021-07-24 08:29:55,42.321s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:29:13,2021-07-24 08:29:35,22.339s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:29:35,2021-07-24 08:29:37,1.101s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:29:37,2021-07-24 08:29:37,0.526s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:29:37,2021-07-24 08:29:38,0.661s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:29:38,2021-07-24 08:29:41,2.785s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_project_name""), ProjectNameText)",Firefox 90.0,,,2021-07-24 08:29:41,2021-07-24 08:29:49,8.240s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), DomainText1)",Firefox 90.0,,,2021-07-24 08:29:49,2021-07-24 08:29:50,0.946s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:29:50,2021-07-24 08:29:50,0.482s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), AddYourKeywordText)",Firefox 90.0,,,2021-07-24 08:29:50,2021-07-24 08:29:51,0.724s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:29:51,2021-07-24 08:29:52,0.792s,PASSED
+"uncheck(findTestObject(""CreateNewProject/FormPage_2/checkbox_engine_google_desktop""))",Firefox 90.0,,,2021-07-24 08:29:52,2021-07-24 08:29:54,2.599s,PASSED
+"uncheck(findTestObject(""CreateNewProject/FormPage_2/checkbox_engine_google_mobile""))",Firefox 90.0,,,2021-07-24 08:29:54,2021-07-24 08:29:55,0.658s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:29:55,2021-07-24 08:29:55,0.022s,PASSED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-26-CreateProjectWithoutEnteringAnyKeywordsTestCase,Firefox 90.0,"Create a project without entering any keywords.
+Expected: Cannot proceed to 2nd page of the setup",create project,2021-07-24 08:29:55,2021-07-24 08:30:46,50.634s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:29:55,2021-07-24 08:30:27,31.400s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:30:27,2021-07-24 08:30:28,1.323s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:30:28,2021-07-24 08:30:29,0.453s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:30:29,2021-07-24 08:30:29,0.633s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/FormPage_1/button_next""), Timeout)",Firefox 90.0,,,2021-07-24 08:30:29,2021-07-24 08:30:32,2.558s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:30:32,2021-07-24 08:30:40,8.341s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:30:40,2021-07-24 08:30:40,0.013s,PASSED
+"focus(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""))",Firefox 90.0,,,2021-07-24 08:30:40,2021-07-24 08:30:41,0.387s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:30:41,2021-07-24 08:30:44,3.010s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:30:44,2021-07-24 08:30:46,2.066s,PASSED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-25-CreateProjectWithoutFillingDomainFieldTestCase,Firefox 90.0,"Create a project without filling the domain field.
+Expected: Cannot proceed to 2nd page of the setup with relevant error message displayed below the Domain field.",create project,2021-07-24 08:30:46,2021-07-24 08:31:34,48.289s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:30:46,2021-07-24 08:31:09,23.326s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:31:09,2021-07-24 08:31:11,1.240s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:31:11,2021-07-24 08:31:11,0.470s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:31:11,2021-07-24 08:31:12,0.618s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), Timeout)",Firefox 90.0,,,2021-07-24 08:31:12,2021-07-24 08:31:14,2.341s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_project_name""), ProjectNameText)",Firefox 90.0,,,2021-07-24 08:31:14,2021-07-24 08:31:24,10.336s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), """")",Firefox 90.0,,,2021-07-24 08:31:24,2021-07-24 08:31:25,0.960s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), AddYourKeywordText)",Firefox 90.0,,,2021-07-24 08:31:25,2021-07-24 08:31:26,0.778s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:31:26,2021-07-24 08:31:27,0.787s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:31:27,2021-07-24 08:31:27,0.043s,PASSED
+"focus(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""))",Firefox 90.0,,,2021-07-24 08:31:27,2021-07-24 08:31:28,0.751s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:31:28,2021-07-24 08:31:31,3.006s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:31:31,2021-07-24 08:31:34,3.239s,PASSED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-24-CreateProjectWithoutFillingNameFieldTestCase,Firefox 90.0,"Create a project without filling the name field.
+Expected: Cannot proceed to 2nd page of the setup",create project,2021-07-24 08:31:34,2021-07-24 08:32:45,1m - 10.578s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:31:34,2021-07-24 08:31:59,24.463s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:31:59,2021-07-24 08:32:21,21.653s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:32:21,2021-07-24 08:32:21,0.620s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:32:21,2021-07-24 08:32:22,0.607s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), Timeout)",Firefox 90.0,,,2021-07-24 08:32:22,2021-07-24 08:32:24,2.338s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), DomainText1)",Firefox 90.0,,,2021-07-24 08:32:24,2021-07-24 08:32:36,12.008s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), AddYourKeywordText)",Firefox 90.0,,,2021-07-24 08:32:36,2021-07-24 08:32:37,0.750s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:32:37,2021-07-24 08:32:38,0.787s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:32:38,2021-07-24 08:32:38,0.028s,PASSED
+"focus(findTestObject(""CreateNewProject/FormPage_1/input_project_name""))",Firefox 90.0,,,2021-07-24 08:32:38,2021-07-24 08:32:38,0.401s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:32:38,2021-07-24 08:32:41,3.019s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:32:41,2021-07-24 08:32:45,3.448s,PASSED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-32-UploadCsvWithoutSelectingAnyKeywordsTestCase,Firefox 90.0,"upload a csv without selecting any keywords.
+Expected: Csv no uploaded, user prompted to select at least one keyword",create project,2021-07-24 08:32:45,2021-07-24 08:33:43,58.372s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:32:45,2021-07-24 08:33:13,28.041s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:33:13,2021-07-24 08:33:22,9.216s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:33:22,2021-07-24 08:33:23,0.684s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:33:23,2021-07-24 08:33:24,0.622s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:33:24,2021-07-24 08:33:26,2.345s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), ""detik.com"")",Firefox 90.0,,,2021-07-24 08:33:26,2021-07-24 08:33:34,7.788s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:33:34,2021-07-24 08:33:34,0.424s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), ""politik"")",Firefox 90.0,,,2021-07-24 08:33:34,2021-07-24 08:33:35,0.799s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_keyword_suggestions""), ""partai"")",Firefox 90.0,,,2021-07-24 08:33:35,2021-07-24 08:33:36,0.876s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:33:36,2021-07-24 08:33:37,0.824s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:33:37,2021-07-24 08:33:40,3.015s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:33:40,2021-07-24 08:33:43,3.218s,PASSED
+,,,,,,,
+Test Cases/Edit Project/Negative/TS-EPR-28-RemoveAllKeywordsFromTheProjectTestCase,Firefox 90.0,"Remove all keywords from the project.
+Expected: User cannot proceed to 2nd page of the setup",edit project,2021-07-24 08:33:43,2021-07-24 08:34:41,57.835s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:33:43,2021-07-24 08:34:12,28.159s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:34:12,2021-07-24 08:34:13,1.724s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:34:13,2021-07-24 08:34:14,0.616s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:34:14,2021-07-24 08:34:15,0.644s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:34:15,2021-07-24 08:34:17,2.348s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), ""detik.com"")",Firefox 90.0,,,2021-07-24 08:34:17,2021-07-24 08:34:26,8.709s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:34:26,2021-07-24 08:34:26,0.390s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), ""politik"")",Firefox 90.0,,,2021-07-24 08:34:26,2021-07-24 08:34:27,0.735s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_keyword_suggestions""), ""partai"")",Firefox 90.0,,,2021-07-24 08:34:27,2021-07-24 08:34:28,0.855s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:34:28,2021-07-24 08:34:28,0.724s,PASSED
+delay(10),Firefox 90.0,,,2021-07-24 08:34:28,2021-07-24 08:34:38,10.017s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:34:38,2021-07-24 08:34:41,2.550s,PASSED
+,,,,,,,
+Test Cases/Edit Project/Negative/TS-EPR-29-AddKeywordContainingLessThan2CharactersTestCase,Firefox 90.0,"Add a keyword containing less than 2 characters.
+Expected: User cannot proceed to 2nd page of the setup",edit project,2021-07-24 08:34:41,2021-07-24 08:35:52,1m - 11.211s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:34:41,2021-07-24 08:35:06,24.787s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:35:06,2021-07-24 08:35:25,19.307s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:35:25,2021-07-24 08:35:26,0.551s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:35:26,2021-07-24 08:35:26,0.607s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:35:26,2021-07-24 08:35:29,2.417s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), ""detik.com"")",Firefox 90.0,,,2021-07-24 08:35:29,2021-07-24 08:35:37,8.042s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:35:37,2021-07-24 08:35:37,0.422s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), ""politik"")",Firefox 90.0,,,2021-07-24 08:35:37,2021-07-24 08:35:38,0.747s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_keyword_suggestions""), ""partai"")",Firefox 90.0,,,2021-07-24 08:35:38,2021-07-24 08:35:39,0.845s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:35:39,2021-07-24 08:35:40,0.771s,PASSED
+delay(10),Firefox 90.0,,,2021-07-24 08:35:40,2021-07-24 08:35:50,10.007s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:35:50,2021-07-24 08:35:52,2.330s,PASSED
+,,,,,,,
+Test Cases/Edit Project/Negative/TS-EPR-30-ChangeProjectNameToLessThan2CharactersLongTestCase,Firefox 90.0,"Change project name to less than 2 characters long.
+Expected: User cannot proceed to 2nd page of the setup",edit project,2021-07-24 08:35:52,2021-07-24 08:36:49,57.288s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:35:53,2021-07-24 08:36:20,27.431s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:36:20,2021-07-24 08:36:22,2.121s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:36:22,2021-07-24 08:36:23,0.621s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:36:23,2021-07-24 08:36:23,0.647s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:36:23,2021-07-24 08:36:26,2.285s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), ""detik.com"")",Firefox 90.0,,,2021-07-24 08:36:26,2021-07-24 08:36:34,8.293s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:36:34,2021-07-24 08:36:34,0.408s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), ""politik"")",Firefox 90.0,,,2021-07-24 08:36:34,2021-07-24 08:36:35,0.710s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_keyword_suggestions""), ""partai"")",Firefox 90.0,,,2021-07-24 08:36:35,2021-07-24 08:36:36,0.848s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:36:36,2021-07-24 08:36:37,0.785s,PASSED
+delay(10),Firefox 90.0,,,2021-07-24 08:36:37,2021-07-24 08:36:47,10.007s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:36:47,2021-07-24 08:36:49,2.739s,PASSED
+,,,,,,,
+Test Cases/Edit Project/Negative/TS-EPR-31-DeleteProjectNameTestCase,Firefox 90.0,"Delete project name.
+Expected: User cannot proceed to 2nd page of the setup",edit project,2021-07-24 08:36:49,2021-07-24 08:37:43,53.266s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:36:50,2021-07-24 08:37:13,22.731s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:37:13,2021-07-24 08:37:14,1.242s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:37:14,2021-07-24 08:37:14,0.642s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:37:14,2021-07-24 08:37:15,0.651s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:37:15,2021-07-24 08:37:18,2.679s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), ""detik.com"")",Firefox 90.0,,,2021-07-24 08:37:18,2021-07-24 08:37:27,9.169s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:37:27,2021-07-24 08:37:27,0.429s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), ""politik"")",Firefox 90.0,,,2021-07-24 08:37:27,2021-07-24 08:37:28,0.727s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_keyword_suggestions""), ""partai"")",Firefox 90.0,,,2021-07-24 08:37:28,2021-07-24 08:37:29,0.818s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:37:29,2021-07-24 08:37:30,0.788s,PASSED
+delay(10),Firefox 90.0,,,2021-07-24 08:37:30,2021-07-24 08:37:40,10.016s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:37:40,2021-07-24 08:37:43,3.011s,PASSED
+,,,,,,,
+Test Cases/Edit Project/Negative/TS-EPR-32-RemoveDomainNameFromTheDomainFieldTestCase,Firefox 90.0,"Remove domain name from the domain field.
+Expected: User cannot proceed to 2nd page of the setup",edit project,2021-07-24 08:37:43,2021-07-24 08:38:37,54.440s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:37:43,2021-07-24 08:38:06,23.289s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:38:06,2021-07-24 08:38:08,1.372s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:38:08,2021-07-24 08:38:08,0.653s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:38:08,2021-07-24 08:38:09,0.616s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:38:09,2021-07-24 08:38:13,3.563s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), ""detik.com"")",Firefox 90.0,,,2021-07-24 08:38:13,2021-07-24 08:38:21,8.418s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:38:21,2021-07-24 08:38:21,0.448s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), ""politik"")",Firefox 90.0,,,2021-07-24 08:38:21,2021-07-24 08:38:22,0.727s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_keyword_suggestions""), ""partai"")",Firefox 90.0,,,2021-07-24 08:38:22,2021-07-24 08:38:23,0.857s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:38:23,2021-07-24 08:38:24,0.802s,PASSED
+delay(10),Firefox 90.0,,,2021-07-24 08:38:24,2021-07-24 08:38:34,10.013s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:38:34,2021-07-24 08:38:37,3.313s,PASSED
+,,,,,,,
+Test Cases/Edit Project/Negative/TS-EPR-33-ChangeDomainNameToAnInvalidFormatTestCase,Firefox 90.0,"Change domain name to an invalid format.
+Expected: User cannot proceed to 2nd page of the setup",edit project,2021-07-24 08:38:37,2021-07-24 08:39:34,56.422s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:38:38,2021-07-24 08:39:04,26.830s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:39:04,2021-07-24 08:39:06,1.469s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:39:06,2021-07-24 08:39:07,0.672s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:39:07,2021-07-24 08:39:07,0.645s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:39:07,2021-07-24 08:39:09,2.232s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), ""detik.com"")",Firefox 90.0,,,2021-07-24 08:39:09,2021-07-24 08:39:18,8.674s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:39:18,2021-07-24 08:39:19,0.416s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), ""politik"")",Firefox 90.0,,,2021-07-24 08:39:19,2021-07-24 08:39:19,0.706s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_keyword_suggestions""), ""partai"")",Firefox 90.0,,,2021-07-24 08:39:19,2021-07-24 08:39:20,0.831s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:39:20,2021-07-24 08:39:21,0.811s,PASSED
+delay(10),Firefox 90.0,,,2021-07-24 08:39:21,2021-07-24 08:39:31,10.017s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:39:31,2021-07-24 08:39:34,2.757s,PASSED
+,,,,,,,
+Test Cases/Edit Project/Negative/TS-EPR-34-ClickAddCompetitorButLeaveTheFieldEmptyTestCase,Firefox 90.0,"Click add competitor but leave the field empty.
+Expected: User cannot proceed to 2nd page of the setup",edit project,2021-07-24 08:39:34,2021-07-24 08:41:02,1m - 28.120s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:39:34,2021-07-24 08:39:59,25.330s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:39:59,2021-07-24 08:40:24,24.453s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:40:24,2021-07-24 08:40:24,0.648s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:40:24,2021-07-24 08:40:25,0.633s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:40:25,2021-07-24 08:40:30,4.577s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), ""detik.com"")",Firefox 90.0,,,2021-07-24 08:40:30,2021-07-24 08:40:42,12.470s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:40:42,2021-07-24 08:40:43,1.098s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), ""politik"")",Firefox 90.0,,,2021-07-24 08:40:43,2021-07-24 08:40:45,2.186s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_keyword_suggestions""), ""partai"")",Firefox 90.0,,,2021-07-24 08:40:45,2021-07-24 08:40:48,2.339s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:40:48,2021-07-24 08:40:49,1.097s,PASSED
+delay(10),Firefox 90.0,,,2021-07-24 08:40:49,2021-07-24 08:40:59,10.021s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:40:59,2021-07-24 08:41:02,2.891s,PASSED
+,,,,,,,
+Test Cases/Edit Project/Negative/TS-EPR-35-DeselectAllEnginesOrDevicesFromExistingCombosTestCase,Firefox 90.0,"Deselect all engines/devices from existing combos.
+Expected: User cannot proceed to 3rd page of the setup",edit project,2021-07-24 08:41:02,2021-07-24 08:41:59,57.246s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:41:02,2021-07-24 08:41:31,28.884s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:41:31,2021-07-24 08:41:32,1.223s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:41:32,2021-07-24 08:41:33,0.606s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:41:33,2021-07-24 08:41:34,0.640s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:41:34,2021-07-24 08:41:36,2.192s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), ""detik.com"")",Firefox 90.0,,,2021-07-24 08:41:36,2021-07-24 08:41:44,8.216s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:41:44,2021-07-24 08:41:44,0.431s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), ""politik"")",Firefox 90.0,,,2021-07-24 08:41:44,2021-07-24 08:41:45,0.713s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_keyword_suggestions""), ""partai"")",Firefox 90.0,,,2021-07-24 08:41:45,2021-07-24 08:41:46,0.837s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:41:46,2021-07-24 08:41:47,0.783s,PASSED
+delay(10),Firefox 90.0,,,2021-07-24 08:41:47,2021-07-24 08:41:57,10.015s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:41:57,2021-07-24 08:41:59,2.357s,PASSED
+,,,,,,,
+Test Cases/Edit Project/Negative/TS-EPR-36-UploadCsvWithoutSelectingAnyKeywordsFromItTestCase,Firefox 90.0,"Upload a csv without selecting any keywords from it.
+Expected: Csv not uploaded, user prompted to select at least one keyword",edit project,2021-07-24 08:41:59,2021-07-24 08:43:23,1m - 23.854s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:42:00,2021-07-24 08:42:24,24.547s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:42:24,2021-07-24 08:42:49,25.309s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:42:49,2021-07-24 08:42:50,0.647s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:42:50,2021-07-24 08:42:51,0.635s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:42:51,2021-07-24 08:42:54,2.906s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), ""detik.com"")",Firefox 90.0,,,2021-07-24 08:42:54,2021-07-24 08:43:08,14.051s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:43:08,2021-07-24 08:43:08,0.426s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), ""politik"")",Firefox 90.0,,,2021-07-24 08:43:08,2021-07-24 08:43:09,0.758s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_keyword_suggestions""), ""partai"")",Firefox 90.0,,,2021-07-24 08:43:09,2021-07-24 08:43:10,0.820s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:43:10,2021-07-24 08:43:10,0.837s,PASSED
+delay(10),Firefox 90.0,,,2021-07-24 08:43:10,2021-07-24 08:43:20,10.008s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:43:20,2021-07-24 08:43:23,2.563s,PASSED
+,,,,,,,
+Test Cases/Edit Project/Negative/TS-EPR-37-IncreaseUsageAboveChecksLimitOfTheUserTestCase,Firefox 90.0,"Increase usage above the checks limit of the user.
+Expected: User cannot complete project setup, prompted to upgrade the plan.",,2021-07-24 08:43:23,2021-07-24 08:44:32,1m - 9.209s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:43:23,2021-07-24 08:43:55,31.865s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:43:55,2021-07-24 08:43:56,0.970s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:43:56,2021-07-24 08:43:57,0.651s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:43:57,2021-07-24 08:43:58,0.662s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:43:58,2021-07-24 08:44:01,3.657s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), ""detik.com"")",Firefox 90.0,,,2021-07-24 08:44:01,2021-07-24 08:44:18,16.376s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:44:18,2021-07-24 08:44:18,0.441s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), ""politik"")",Firefox 90.0,,,2021-07-24 08:44:18,2021-07-24 08:44:19,0.745s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_keyword_suggestions""), ""partai"")",Firefox 90.0,,,2021-07-24 08:44:19,2021-07-24 08:44:20,0.848s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:44:20,2021-07-24 08:44:20,0.817s,PASSED
+delay(10),Firefox 90.0,,,2021-07-24 08:44:20,2021-07-24 08:44:30,10.017s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:44:30,2021-07-24 08:44:32,1.813s,PASSED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-24-CreateProjectWithoutFillingNameFieldTestCase,Firefox 90.0,"Create a project without filling the name field.
+Expected: Cannot proceed to 2nd page of the setup",create project,2021-07-24 08:44:32,2021-07-24 08:45:24,51.388s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:44:32,2021-07-24 08:44:59,27.022s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:44:59,2021-07-24 08:45:00,1.146s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:45:00,2021-07-24 08:45:01,0.692s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:45:01,2021-07-24 08:45:02,0.627s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), Timeout)",Firefox 90.0,,,2021-07-24 08:45:02,2021-07-24 08:45:06,4.151s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), DomainText1)",Firefox 90.0,,,2021-07-24 08:45:06,2021-07-24 08:45:16,10.448s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), AddYourKeywordText)",Firefox 90.0,,,2021-07-24 08:45:16,2021-07-24 08:45:17,0.732s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:45:17,2021-07-24 08:45:18,0.825s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:45:18,2021-07-24 08:45:18,0.024s,PASSED
+"focus(findTestObject(""CreateNewProject/FormPage_1/input_project_name""))",Firefox 90.0,,,2021-07-24 08:45:18,2021-07-24 08:45:18,0.414s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:45:18,2021-07-24 08:45:21,3.010s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:45:21,2021-07-24 08:45:24,2.289s,PASSED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-25-CreateProjectWithoutFillingDomainFieldTestCase,Firefox 90.0,"Create a project without filling the domain field.
+Expected: Cannot proceed to 2nd page of the setup with relevant error message displayed below the Domain field.",create project,2021-07-24 08:45:24,2021-07-24 08:46:20,55.876s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:45:24,2021-07-24 08:45:46,22.780s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:45:46,2021-07-24 08:45:58,11.726s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:45:58,2021-07-24 08:45:59,0.588s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:45:59,2021-07-24 08:45:59,0.601s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), Timeout)",Firefox 90.0,,,2021-07-24 08:45:59,2021-07-24 08:46:02,2.363s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_project_name""), ProjectNameText)",Firefox 90.0,,,2021-07-24 08:46:02,2021-07-24 08:46:11,9.179s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), """")",Firefox 90.0,,,2021-07-24 08:46:11,2021-07-24 08:46:12,0.939s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), AddYourKeywordText)",Firefox 90.0,,,2021-07-24 08:46:12,2021-07-24 08:46:13,0.766s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:46:13,2021-07-24 08:46:13,0.801s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:46:13,2021-07-24 08:46:13,0.014s,PASSED
+"focus(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""))",Firefox 90.0,,,2021-07-24 08:46:13,2021-07-24 08:46:14,0.397s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:46:14,2021-07-24 08:46:17,3.013s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:46:17,2021-07-24 08:46:20,2.699s,PASSED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-26-CreateProjectWithoutEnteringAnyKeywordsTestCase,Firefox 90.0,"Create a project without entering any keywords.
+Expected: Cannot proceed to 2nd page of the setup",create project,2021-07-24 08:46:20,2021-07-24 08:47:25,1m - 5.570s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:46:20,2021-07-24 08:46:47,27.193s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:46:47,2021-07-24 08:47:07,20.647s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:47:07,2021-07-24 08:47:08,0.691s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:47:08,2021-07-24 08:47:09,0.608s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/FormPage_1/button_next""), Timeout)",Firefox 90.0,,,2021-07-24 08:47:09,2021-07-24 08:47:12,2.877s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:47:12,2021-07-24 08:47:19,7.355s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:47:19,2021-07-24 08:47:19,0.024s,PASSED
+"focus(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""))",Firefox 90.0,,,2021-07-24 08:47:19,2021-07-24 08:47:19,0.374s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:47:19,2021-07-24 08:47:22,3.010s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:47:22,2021-07-24 08:47:25,2.782s,PASSED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-27-CreateProjectAndClickAddCompetitorButDoNotFillFieldTestCase,Firefox 90.0,"Create a project, click add competitor but do not fill the field.
+Expected: Cannot proceed to 2nd page of the setup",create project,2021-07-24 08:47:25,2021-07-24 08:48:34,1m - 8.428s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:47:25,2021-07-24 08:47:49,24.009s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:47:49,2021-07-24 08:48:09,19.436s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:48:09,2021-07-24 08:48:09,0.652s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:48:09,2021-07-24 08:48:10,0.616s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/FormPage_1/input_project_name""), Timeout)",Firefox 90.0,,,2021-07-24 08:48:10,2021-07-24 08:48:13,3.009s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_project_name""), ProjectNameText)",Firefox 90.0,,,2021-07-24 08:48:13,2021-07-24 08:48:23,10.054s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), DomainText1)",Firefox 90.0,,,2021-07-24 08:48:23,2021-07-24 08:48:24,0.976s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_add_competitor""))",Firefox 90.0,,,2021-07-24 08:48:24,2021-07-24 08:48:25,0.665s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), AddYourKeywordText)",Firefox 90.0,,,2021-07-24 08:48:25,2021-07-24 08:48:25,0.780s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:48:25,2021-07-24 08:48:26,0.798s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:48:26,2021-07-24 08:48:26,0.025s,PASSED
+"focus(findTestObject(""CreateNewProject/FormPage_1/input_domain_competitors""))",Firefox 90.0,,,2021-07-24 08:48:26,2021-07-24 08:48:28,1.519s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:48:28,2021-07-24 08:48:31,3.004s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:48:31,2021-07-24 08:48:34,2.870s,PASSED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-28-CreateProjectWithoutAnyEnginesOrDevicesSelectedTestCase,Firefox 90.0,"Create a project without any engines/devices selected.
+Expected: Cannot proceed to 3rd page of the setup",create project,2021-07-24 08:48:34,2021-07-24 08:49:27,53.386s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:48:34,2021-07-24 08:48:57,23.301s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:48:57,2021-07-24 08:49:10,13.332s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:49:10,2021-07-24 08:49:11,0.457s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:49:11,2021-07-24 08:49:11,0.627s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:49:11,2021-07-24 08:49:13,2.192s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_project_name""), ProjectNameText)",Firefox 90.0,,,2021-07-24 08:49:13,2021-07-24 08:49:23,9.802s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), DomainText1)",Firefox 90.0,,,2021-07-24 08:49:23,2021-07-24 08:49:24,0.973s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:49:24,2021-07-24 08:49:25,0.409s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), AddYourKeywordText)",Firefox 90.0,,,2021-07-24 08:49:25,2021-07-24 08:49:25,0.695s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:49:25,2021-07-24 08:49:26,0.829s,PASSED
+"uncheck(findTestObject(""CreateNewProject/FormPage_2/checkbox_engine_google_desktop""))",Firefox 90.0,,,2021-07-24 08:49:26,2021-07-24 08:49:27,0.363s,PASSED
+"uncheck(findTestObject(""CreateNewProject/FormPage_2/checkbox_engine_google_mobile""))",Firefox 90.0,,,2021-07-24 08:49:27,2021-07-24 08:49:27,0.370s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:49:27,2021-07-24 08:49:27,0.027s,PASSED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-29-CreateProjectWithNameFieldWithLessThan2CharactersTestCase,Firefox 90.0,"create a project with name field with less than 2 characters.
+Expected: Cannot proceed to 2nd page of the setup.",create project,2021-07-24 08:49:27,2021-07-24 08:50:42,1m - 14.879s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:49:27,2021-07-24 08:49:52,25.387s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:49:52,2021-07-24 08:50:19,27.157s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:50:19,2021-07-24 08:50:20,0.544s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:50:20,2021-07-24 08:50:21,0.594s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/FormPage_1/input_project_name""), Timeout)",Firefox 90.0,,,2021-07-24 08:50:21,2021-07-24 08:50:23,2.312s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_project_name""), ""S"")",Firefox 90.0,,,2021-07-24 08:50:23,2021-07-24 08:50:32,8.691s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), DomainText1)",Firefox 90.0,,,2021-07-24 08:50:32,2021-07-24 08:50:33,0.985s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), AddYourKeywordText)",Firefox 90.0,,,2021-07-24 08:50:33,2021-07-24 08:50:33,0.753s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:50:33,2021-07-24 08:50:34,0.993s,PASSED
+waitForPageLoad(Timeout),Firefox 90.0,,,2021-07-24 08:50:34,2021-07-24 08:50:34,0.128s,PASSED
+"focus(findTestObject(""CreateNewProject/FormPage_1/input_project_name""))",Firefox 90.0,,,2021-07-24 08:50:34,2021-07-24 08:50:36,1.754s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:50:36,2021-07-24 08:50:39,3.005s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:50:39,2021-07-24 08:50:42,2.565s,PASSED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-30-CreateProjectUsingInvalidDomainFormatInDomainFieldTestCase,Firefox 90.0,"create a project using invalid domain format in the domain field.
+Expected: Cannot proceed to 2nd page of the setup",create project,2021-07-24 08:50:42,2021-07-24 08:51:33,50.991s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:50:42,2021-07-24 08:51:08,25.914s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:51:08,2021-07-24 08:51:09,1.317s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:51:09,2021-07-24 08:51:10,0.680s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:51:10,2021-07-24 08:51:10,0.643s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:51:10,2021-07-24 08:51:14,3.339s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_project_name""), ProjectNameText)",Firefox 90.0,,,2021-07-24 08:51:14,2021-07-24 08:51:23,8.830s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), ""2341sf"")",Firefox 90.0,,,2021-07-24 08:51:23,2021-07-24 08:51:23,0.933s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:51:23,2021-07-24 08:51:24,0.406s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), AddYourKeywordText)",Firefox 90.0,,,2021-07-24 08:51:24,2021-07-24 08:51:26,1.893s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:51:26,2021-07-24 08:51:27,0.807s,PASSED
+"focus(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""))",Firefox 90.0,,,2021-07-24 08:51:27,2021-07-24 08:51:27,0.413s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:51:27,2021-07-24 08:51:30,3.003s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:51:30,2021-07-24 08:51:33,2.803s,PASSED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-31-CreateProjectWithKeywordLessThan2CharactersTestCase,Firefox 90.0,"create a project with keyword with less than 2 characters.
+Expected: Cannot proceed to 2nd page of the setup.",create project,2021-07-24 08:51:33,2021-07-24 08:52:53,1m - 19.807s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:51:33,2021-07-24 08:52:01,27.726s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:52:01,2021-07-24 08:52:30,29.039s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:52:30,2021-07-24 08:52:30,0.724s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:52:30,2021-07-24 08:52:31,0.608s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:52:31,2021-07-24 08:52:33,2.421s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), DomainText1)",Firefox 90.0,,,2021-07-24 08:52:33,2021-07-24 08:52:42,8.879s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:52:42,2021-07-24 08:52:43,0.627s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), ""q"")",Firefox 90.0,,,2021-07-24 08:52:43,2021-07-24 08:52:44,1.606s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:52:44,2021-07-24 08:52:46,1.102s,PASSED
+"focus(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""))",Firefox 90.0,,,2021-07-24 08:52:46,2021-07-24 08:52:47,1.025s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:52:47,2021-07-24 08:52:50,3.006s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:52:50,2021-07-24 08:52:53,3.033s,PASSED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-32-UploadCsvWithoutSelectingAnyKeywordsTestCase,Firefox 90.0,"upload a csv without selecting any keywords.
+Expected: Csv no uploaded, user prompted to select at least one keyword",create project,2021-07-24 08:52:53,2021-07-24 08:53:41,48.073s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:52:53,2021-07-24 08:53:19,26.861s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:53:19,2021-07-24 08:53:20,0.999s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:53:20,2021-07-24 08:53:21,0.797s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:53:21,2021-07-24 08:53:22,0.608s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:53:22,2021-07-24 08:53:25,2.608s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), ""detik.com"")",Firefox 90.0,,,2021-07-24 08:53:25,2021-07-24 08:53:33,8.047s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:53:33,2021-07-24 08:53:33,0.443s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), ""politik"")",Firefox 90.0,,,2021-07-24 08:53:33,2021-07-24 08:53:34,0.713s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_keyword_suggestions""), ""partai"")",Firefox 90.0,,,2021-07-24 08:53:34,2021-07-24 08:53:35,0.846s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:53:35,2021-07-24 08:53:35,0.780s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:53:35,2021-07-24 08:53:38,3.005s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:53:38,2021-07-24 08:53:41,2.357s,PASSED
+,,,,,,,
+Test Cases/Create Project/Negative/TS-CPR-33-CreateProjectThatIsGoingOverTheChecksLimitOfTheUsersPlanTestCase,Firefox 90.0,"Create project that is going over the checks limit of the users plan.
+Expected: User cannot complete project setup, is prompted to upgrade the plan",create project,2021-07-24 08:53:41,2021-07-24 08:54:26,45.737s,PASSED
+com.helper.browserhelper.CustomBrowser.login(),Firefox 90.0,,,2021-07-24 08:53:41,2021-07-24 08:54:02,21.379s,PASSED
+"click(findTestObject(""CreateNewProject/button_add_project""))",Firefox 90.0,,,2021-07-24 08:54:02,2021-07-24 08:54:03,1.199s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube""), Timeout)",Firefox 90.0,,,2021-07-24 08:54:03,2021-07-24 08:54:04,0.650s,PASSED
+"click(findTestObject(""CreateNewProject/button_domain""))",Firefox 90.0,,,2021-07-24 08:54:04,2021-07-24 08:54:05,0.635s,PASSED
+"waitForElementPresent(findTestObject(""CreateNewProject/popup_window_creating_project""), Timeout)",Firefox 90.0,,,2021-07-24 08:54:05,2021-07-24 08:54:08,2.942s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_domain_name""), ""detik.com"")",Firefox 90.0,,,2021-07-24 08:54:08,2021-07-24 08:54:17,9.190s,PASSED
+"waitForElementVisible(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), Timeout)",Firefox 90.0,,,2021-07-24 08:54:17,2021-07-24 08:54:17,0.410s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_add_your_keyword""), ""politik"")",Firefox 90.0,,,2021-07-24 08:54:17,2021-07-24 08:54:18,0.753s,PASSED
+"setText(findTestObject(""CreateNewProject/FormPage_1/input_keyword_suggestions""), ""partai"")",Firefox 90.0,,,2021-07-24 08:54:18,2021-07-24 08:54:19,0.830s,PASSED
+"click(findTestObject(""CreateNewProject/FormPage_1/button_next""))",Firefox 90.0,,,2021-07-24 08:54:19,2021-07-24 08:54:20,0.819s,PASSED
+delay(3),Firefox 90.0,,,2021-07-24 08:54:20,2021-07-24 08:54:23,3.014s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 90.0,,,2021-07-24 08:54:23,2021-07-24 08:54:26,3.900s,PASSED

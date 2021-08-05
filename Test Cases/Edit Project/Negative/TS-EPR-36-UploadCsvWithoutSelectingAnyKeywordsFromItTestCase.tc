@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Upload a csv without selecting any keywords from it.
+Expected: Csv not uploaded, user prompted to select at least one keyword</description>
+   <name>TS-EPR-36-UploadCsvWithoutSelectingAnyKeywordsFromItTestCase</name>
+   <tag>edit project</tag>
+   <comment></comment>
+   <testCaseGuid>f3172a76-07b5-4ab4-ba9a-56b6393342a1</testCaseGuid>
+</TestCaseEntity>

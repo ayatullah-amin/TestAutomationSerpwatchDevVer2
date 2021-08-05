@@ -1,0 +1,14 @@
+{"testCaseName":"Test Cases/RegisterAndLogin/Negative/TS-LGN-24-LoginWithUnregisteredEmailTestCase","testCaseId":"Test Cases/RegisterAndLogin/Negative/TS-LGN-24-LoginWithUnregisteredEmailTestCase"}
+{"testCaseName":"Test Cases/RegisterAndLogin/Negative/TS-LGN-25-LoginWithWrongPasswordTestCase","testCaseId":"Test Cases/RegisterAndLogin/Negative/TS-LGN-25-LoginWithWrongPasswordTestCase"}
+{"testCaseName":"Test Cases/RegisterAndLogin/Negative/TS-LGN-12-RegisterWithWrongEmailFormatTestCase","testCaseId":"Test Cases/RegisterAndLogin/Negative/TS-LGN-12-RegisterWithWrongEmailFormatTestCase"}
+{"testCaseName":"Test Cases/RegisterAndLogin/Negative/TS-LGN-13-RegisterWithPasswordUnder6CharactersTestCase","testCaseId":"Test Cases/RegisterAndLogin/Negative/TS-LGN-13-RegisterWithPasswordUnder6CharactersTestCase"}
+{"testCaseName":"Test Cases/RegisterAndLogin/Negative/TS-LGN-14-RegisterWithNameUnder3CharactersTestCase","testCaseId":"Test Cases/RegisterAndLogin/Negative/TS-LGN-14-RegisterWithNameUnder3CharactersTestCase"}
+{"testCaseName":"Test Cases/RegisterAndLogin/Negative/TS-LGN-15-RegisterWithInvalidNameFormatTestCase","testCaseId":"Test Cases/RegisterAndLogin/Negative/TS-LGN-15-RegisterWithInvalidNameFormatTestCase"}
+{"testCaseName":"Test Cases/RegisterAndLogin/Negative/TS-LGN-16-RegisterWithoutAcceptingToSTestCase","testCaseId":"Test Cases/RegisterAndLogin/Negative/TS-LGN-16-RegisterWithoutAcceptingToSTestCase"}
+{"testCaseName":"Test Cases/RegisterAndLogin/Negative/TS-LGN-17-RegisterWithNotMatchingPasswordConfirmTestCase","testCaseId":"Test Cases/RegisterAndLogin/Negative/TS-LGN-17-RegisterWithNotMatchingPasswordConfirmTestCase"}
+{"testCaseName":"Test Cases/RegisterAndLogin/Negative/TS-LGN-18-RegisterWithoutFillingPasswordConfFieldTestCase","testCaseId":"Test Cases/RegisterAndLogin/Negative/TS-LGN-18-RegisterWithoutFillingPasswordConfFieldTestCase"}
+{"testCaseName":"Test Cases/RegisterAndLogin/Negative/TS-LGN-19-RegisterWithNameFieldEmptyTestCase","testCaseId":"Test Cases/RegisterAndLogin/Negative/TS-LGN-19-RegisterWithNameFieldEmptyTestCase"}
+{"testCaseName":"Test Cases/RegisterAndLogin/Negative/TS-LGN-20-RegisterWithEmailFieldEmptyTestCase","testCaseId":"Test Cases/RegisterAndLogin/Negative/TS-LGN-20-RegisterWithEmailFieldEmptyTestCase"}
+{"testCaseName":"Test Cases/RegisterAndLogin/Negative/TS-LGN-21-RegisterWithPasswordFieldEmptyTestCase","testCaseId":"Test Cases/RegisterAndLogin/Negative/TS-LGN-21-RegisterWithPasswordFieldEmptyTestCase"}
+{"testCaseName":"Test Cases/RegisterAndLogin/Negative/TS-LGN-24-LoginWithUnregisteredEmailTestCase","testCaseId":"Test Cases/RegisterAndLogin/Negative/TS-LGN-24-LoginWithUnregisteredEmailTestCase"}
+{"testCaseName":"Test Cases/RegisterAndLogin/Negative/TS-LGN-25-LoginWithWrongPasswordTestCase","testCaseId":"Test Cases/RegisterAndLogin/Negative/TS-LGN-25-LoginWithWrongPasswordTestCase"}

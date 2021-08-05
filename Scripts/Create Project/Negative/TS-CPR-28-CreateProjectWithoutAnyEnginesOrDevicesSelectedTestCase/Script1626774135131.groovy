@@ -27,16 +27,20 @@ WebUI.click(findTestObject('CreateNewProject/button_domain'))
 
 WebUI.waitForElementPresent(findTestObject('CreateNewProject/popup_window_creating_project'), GlobalVariable.Timeout)
 
-WebUI.setText(findTestObject('CreateNewProject/FormPage_1/input_domain_name'), 'detik.com')
+WebUI.setText(findTestObject('CreateNewProject/FormPage_1/input_project_name'), GlobalVariable.ProjectNameText)
+
+WebUI.setText(findTestObject('CreateNewProject/FormPage_1/input_domain_name'), GlobalVariable.DomainText1)
 
 WebUI.waitForElementVisible(findTestObject('CreateNewProject/FormPage_1/input_add_your_keyword'), GlobalVariable.Timeout)
 
-WebUI.setText(findTestObject('CreateNewProject/FormPage_1/input_add_your_keyword'), 'politik')
-
-WebUI.setText(findTestObject('CreateNewProject/FormPage_1/input_keyword_suggestions'), 'partai')
+WebUI.setText(findTestObject('CreateNewProject/FormPage_1/input_add_your_keyword'), GlobalVariable.AddYourKeywordText)
 
 WebUI.click(findTestObject('CreateNewProject/FormPage_1/button_next'))
 
-WebUI.delay(3)
+//WebUI.waitForElementVisible(findTestObject('CreateNewProject/FormPage_2/checkbox_engine_google_desktop'), GlobalVariable.Timeout)
+WebUI.uncheck(findTestObject('CreateNewProject/FormPage_2/checkbox_engine_google_desktop'))
 
-CustomKeywords.'com.helper.browserhelper.CustomBrowser.closeBrowser'()
+WebUI.uncheck(findTestObject('CreateNewProject/FormPage_2/checkbox_engine_google_mobile'))
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+

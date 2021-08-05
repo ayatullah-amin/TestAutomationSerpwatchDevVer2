@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateProjectNegativeTestSuite" time="587.839" tests="10" failures="0" errors="0">
+   <testsuite name="CreateProjectNegativeTestSuite" tests="10" failures="0" errors="0" time="587.839" skipped="0" timestamp="2021-07-23 21:18:52" hostname="arul - 192.168.0.106" id="Test Suites/LoginWithEmailTestSuites/CreateProjectNegativeTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\NICHE STACK\\SERPWATCH TEAM\\QA Automation\\Katalon\\Dev Server Version 2\\TestAutomationSerpwatchDevVer2\\Reports\\20210723_211848\\LoginWithEmailTestSuites\\CreateProjectNegativeTestSuite\\20210723_211848"/>
+         <property name="logFiles" value="D:\\NICHE STACK\\SERPWATCH TEAM\\QA Automation\\Katalon\\Dev Server Version 2\\TestAutomationSerpwatchDevVer2\\Reports\\20210723_211848\\LoginWithEmailTestSuites\\CreateProjectNegativeTestSuite\\20210723_211848\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="arul - 192.168.0.106"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Firefox 89.0"/>
+         <property name="hostAddress" value="192.168.0.106"/>
+         <property name="sessionId" value="00fc107a-21f9-471a-bedf-e85816be1fb9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Create Project/Negative/TS-CPR-24-CreateProjectWithoutFillingNameFieldTestCase" time="65.876" classname="Test Cases/Create Project/Negative/TS-CPR-24-CreateProjectWithoutFillingNameFieldTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:18:53 - [TEST_CASE][PASSED] - Test Cases/Create Project/Negative/TS-CPR-24-CreateProjectWithoutFillingNameFieldTestCase: Test Cases/Create Project/Negative/TS-CPR-24-CreateProjectWithoutFillingNameFieldTestCase
+
+2021-07-23 21:18:53 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.login(): com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:18:54 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 21:18:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 21:19:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-v2.serpwatch.io/login'
+
+2021-07-23 21:19:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:19:16 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 21:19:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:19:16 - [MESSAGE][PASSED] - Keys 'ayatullah.arul@gmail.com' sent to object: 'Object Repository/LoginPage/input_sign in_email'
+
+2021-07-23 21:19:17 - [MESSAGE][PASSED] - Keys 'aaa101' sent to object: 'Object Repository/LoginPage/input_sign in_password'
+
+2021-07-23 21:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_login' is clicked on
+
+2021-07-23 21:19:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:19:26 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:19:26 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_add_project")): Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:19:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:19:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube"), Timeout): Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:19:28 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:19:28 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_domain")): Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:19:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreateNewProject/FormPage_1/input_domain_name"), Timeout): Object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name' is present
+
+2021-07-23 21:19:33 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name' is present
+
+2021-07-23 21:19:33 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_domain_name"), DomainText1): Text 'goal.com' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name'
+
+2021-07-23 21:19:45 - [MESSAGE][PASSED] - Text 'goal.com' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name'
+
+2021-07-23 21:19:45 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_add_your_keyword"), AddYourKeywordText): Text 'player' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword'
+
+2021-07-23 21:19:46 - [MESSAGE][PASSED] - Text 'player' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword'
+
+2021-07-23 21:19:46 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/FormPage_1/button_next")): Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:19:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:19:47 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 21:19:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:19:47 - [TEST_STEP][PASSED] - focus(findTestObject("CreateNewProject/FormPage_1/input_project_name")): Object: 'Object Repository/CreateNewProject/FormPage_1/input_project_name' is focused
+
+2021-07-23 21:19:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/FormPage_1/input_project_name' is focused
+
+2021-07-23 21:19:47 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2021-07-23 21:19:55 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2021-07-23 21:19:55 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 21:19:58 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 21:19:58 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Project/Negative/TS-CPR-25-CreateProjectWithoutFillingDomainFieldTestCase" time="62.127" classname="Test Cases/Create Project/Negative/TS-CPR-25-CreateProjectWithoutFillingDomainFieldTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:19:58 - [TEST_CASE][PASSED] - Test Cases/Create Project/Negative/TS-CPR-25-CreateProjectWithoutFillingDomainFieldTestCase: Test Cases/Create Project/Negative/TS-CPR-25-CreateProjectWithoutFillingDomainFieldTestCase
+
+2021-07-23 21:19:59 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.login(): com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:19:59 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 21:19:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 21:20:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-v2.serpwatch.io/login'
+
+2021-07-23 21:20:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:20:15 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 21:20:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:20:16 - [MESSAGE][PASSED] - Keys 'ayatullah.arul@gmail.com' sent to object: 'Object Repository/LoginPage/input_sign in_email'
+
+2021-07-23 21:20:16 - [MESSAGE][PASSED] - Keys 'aaa101' sent to object: 'Object Repository/LoginPage/input_sign in_password'
+
+2021-07-23 21:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_login' is clicked on
+
+2021-07-23 21:20:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:20:25 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:20:25 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_add_project")): Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:20:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube"), Timeout): Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:20:36 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:20:36 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_domain")): Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:20:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreateNewProject/FormPage_1/input_domain_name"), Timeout): Object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name' is present
+
+2021-07-23 21:20:39 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name' is present
+
+2021-07-23 21:20:39 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_project_name"), "Sample"): Text 'Sample' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_project_name'
+
+2021-07-23 21:20:48 - [MESSAGE][PASSED] - Text 'Sample' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_project_name'
+
+2021-07-23 21:20:48 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_domain_name"), ""): Text '' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name'
+
+2021-07-23 21:20:49 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name'
+
+2021-07-23 21:20:49 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_add_your_keyword"), AddYourKeywordText): Text 'player' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword'
+
+2021-07-23 21:20:50 - [MESSAGE][PASSED] - Text 'player' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword'
+
+2021-07-23 21:20:50 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/FormPage_1/button_next")): Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:20:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:20:50 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 21:20:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:20:50 - [TEST_STEP][PASSED] - focus(findTestObject("CreateNewProject/FormPage_1/input_domain_name")): Object: 'Object Repository/CreateNewProject/FormPage_1/input_domain_name' is focused
+
+2021-07-23 21:20:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/FormPage_1/input_domain_name' is focused
+
+2021-07-23 21:20:51 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2021-07-23 21:20:58 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2021-07-23 21:20:58 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 21:21:01 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 21:21:01 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Project/Negative/TS-CPR-26-CreateProjectWithoutEnteringAnyKeywordsTestCase" time="69.991" classname="Test Cases/Create Project/Negative/TS-CPR-26-CreateProjectWithoutEnteringAnyKeywordsTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:21:01 - [TEST_CASE][PASSED] - Test Cases/Create Project/Negative/TS-CPR-26-CreateProjectWithoutEnteringAnyKeywordsTestCase: Test Cases/Create Project/Negative/TS-CPR-26-CreateProjectWithoutEnteringAnyKeywordsTestCase
+
+2021-07-23 21:21:01 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.login(): com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:21:01 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 21:21:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 21:21:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-v2.serpwatch.io/login'
+
+2021-07-23 21:21:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:21:15 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 21:21:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:21:15 - [MESSAGE][PASSED] - Keys 'ayatullah.arul@gmail.com' sent to object: 'Object Repository/LoginPage/input_sign in_email'
+
+2021-07-23 21:21:16 - [MESSAGE][PASSED] - Keys 'aaa101' sent to object: 'Object Repository/LoginPage/input_sign in_password'
+
+2021-07-23 21:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_login' is clicked on
+
+2021-07-23 21:21:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:21:25 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:21:25 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_add_project")): Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:21:46 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:21:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube"), Timeout): Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:21:47 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:21:47 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_domain")): Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:21:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:21:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreateNewProject/FormPage_1/button_next"), Timeout): Object 'Object Repository/CreateNewProject/FormPage_1/button_next' is present
+
+2021-07-23 21:21:51 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/FormPage_1/button_next' is present
+
+2021-07-23 21:21:51 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/FormPage_1/button_next")): Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:22:00 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:22:00 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 21:22:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:22:00 - [TEST_STEP][PASSED] - focus(findTestObject("CreateNewProject/FormPage_1/input_domain_name")): Object: 'Object Repository/CreateNewProject/FormPage_1/input_domain_name' is focused
+
+2021-07-23 21:22:00 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/FormPage_1/input_domain_name' is focused
+
+2021-07-23 21:22:00 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2021-07-23 21:22:07 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2021-07-23 21:22:07 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 21:22:11 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 21:22:11 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Project/Negative/TS-CPR-27-CreateProjectAndClickAddCompetitorButDoNotFillFieldTestCase" time="55.652" classname="Test Cases/Create Project/Negative/TS-CPR-27-CreateProjectAndClickAddCompetitorButDoNotFillFieldTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:22:11 - [TEST_CASE][PASSED] - Test Cases/Create Project/Negative/TS-CPR-27-CreateProjectAndClickAddCompetitorButDoNotFillFieldTestCase: Test Cases/Create Project/Negative/TS-CPR-27-CreateProjectAndClickAddCompetitorButDoNotFillFieldTestCase
+
+2021-07-23 21:22:11 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.login(): com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:22:11 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 21:22:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 21:22:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-v2.serpwatch.io/login'
+
+2021-07-23 21:22:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:22:27 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 21:22:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:22:28 - [MESSAGE][PASSED] - Keys 'ayatullah.arul@gmail.com' sent to object: 'Object Repository/LoginPage/input_sign in_email'
+
+2021-07-23 21:22:28 - [MESSAGE][PASSED] - Keys 'aaa101' sent to object: 'Object Repository/LoginPage/input_sign in_password'
+
+2021-07-23 21:22:36 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_login' is clicked on
+
+2021-07-23 21:22:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:22:36 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:22:36 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_add_project")): Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:22:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube"), Timeout): Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:22:39 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:22:39 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_domain")): Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:22:40 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:22:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreateNewProject/FormPage_1/input_project_name"), Timeout): Object 'Object Repository/CreateNewProject/FormPage_1/input_project_name' is present
+
+2021-07-23 21:22:43 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/FormPage_1/input_project_name' is present
+
+2021-07-23 21:22:43 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_project_name"), "Sample project"): Text 'Sample project' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_project_name'
+
+2021-07-23 21:22:51 - [MESSAGE][PASSED] - Text 'Sample project' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_project_name'
+
+2021-07-23 21:22:51 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_domain_name"), "detik.com"): Text 'detik.com' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name'
+
+2021-07-23 21:22:52 - [MESSAGE][PASSED] - Text 'detik.com' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name'
+
+2021-07-23 21:22:52 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/FormPage_1/button_add_competitor")): Object: 'Object Repository/CreateNewProject/FormPage_1/button_add_competitor' is clicked on
+
+2021-07-23 21:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/FormPage_1/button_add_competitor' is clicked on
+
+2021-07-23 21:22:52 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_add_your_keyword"), "politik"): Text 'politik' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword'
+
+2021-07-23 21:22:53 - [MESSAGE][PASSED] - Text 'politik' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword'
+
+2021-07-23 21:22:53 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_keyword_suggestions"), "partai"): Text 'partai' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_keyword_suggestions'
+
+2021-07-23 21:22:56 - [MESSAGE][PASSED] - Text 'partai' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_keyword_suggestions'
+
+2021-07-23 21:22:56 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/FormPage_1/button_next")): Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:22:56 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 21:22:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:22:56 - [TEST_STEP][PASSED] - focus(findTestObject("CreateNewProject/FormPage_1/input_domain_competitors")): Object: 'Object Repository/CreateNewProject/FormPage_1/input_domain_competitors' is focused
+
+2021-07-23 21:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/FormPage_1/input_domain_competitors' is focused
+
+2021-07-23 21:22:57 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2021-07-23 21:23:04 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2021-07-23 21:23:04 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 21:23:06 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 21:23:06 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Project/Negative/TS-CPR-28-CreateProjectWithoutAnyEnginesOrDevicesSelectedTestCase" time="67.677" classname="Test Cases/Create Project/Negative/TS-CPR-28-CreateProjectWithoutAnyEnginesOrDevicesSelectedTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:23:06 - [TEST_CASE][PASSED] - Test Cases/Create Project/Negative/TS-CPR-28-CreateProjectWithoutAnyEnginesOrDevicesSelectedTestCase: Test Cases/Create Project/Negative/TS-CPR-28-CreateProjectWithoutAnyEnginesOrDevicesSelectedTestCase
+
+2021-07-23 21:23:07 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.login(): com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:23:07 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 21:23:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 21:23:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-v2.serpwatch.io/login'
+
+2021-07-23 21:23:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:23:23 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 21:23:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:23:23 - [MESSAGE][PASSED] - Keys 'ayatullah.arul@gmail.com' sent to object: 'Object Repository/LoginPage/input_sign in_email'
+
+2021-07-23 21:23:24 - [MESSAGE][PASSED] - Keys 'aaa101' sent to object: 'Object Repository/LoginPage/input_sign in_password'
+
+2021-07-23 21:23:31 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_login' is clicked on
+
+2021-07-23 21:23:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:23:31 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:23:31 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_add_project")): Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:23:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube"), Timeout): Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:23:54 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:23:54 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_domain")): Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:23:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreateNewProject/popup_window_creating_project"), Timeout): Object 'Object Repository/CreateNewProject/popup_window_creating_project' is present
+
+2021-07-23 21:23:58 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/popup_window_creating_project' is present
+
+2021-07-23 21:23:58 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_domain_name"), "detik.com"): Text 'detik.com' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name'
+
+2021-07-23 21:24:06 - [MESSAGE][PASSED] - Text 'detik.com' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name'
+
+2021-07-23 21:24:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("CreateNewProject/FormPage_1/input_add_your_keyword"), Timeout): Object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword' is visible
+
+2021-07-23 21:24:06 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword' is visible
+
+2021-07-23 21:24:06 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_add_your_keyword"), "politik"): Text 'politik' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword'
+
+2021-07-23 21:24:07 - [MESSAGE][PASSED] - Text 'politik' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword'
+
+2021-07-23 21:24:07 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_keyword_suggestions"), "partai"): Text 'partai' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_keyword_suggestions'
+
+2021-07-23 21:24:08 - [MESSAGE][PASSED] - Text 'partai' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_keyword_suggestions'
+
+2021-07-23 21:24:08 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/FormPage_1/button_next")): Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:24:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:24:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-23 21:24:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-23 21:24:11 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 21:24:14 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 21:24:14 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Project/Negative/TS-CPR-29-CreateProjectWithNameFieldWithLessThan2CharactersTestCase" time="60.143" classname="Test Cases/Create Project/Negative/TS-CPR-29-CreateProjectWithNameFieldWithLessThan2CharactersTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:24:14 - [TEST_CASE][PASSED] - Test Cases/Create Project/Negative/TS-CPR-29-CreateProjectWithNameFieldWithLessThan2CharactersTestCase: Test Cases/Create Project/Negative/TS-CPR-29-CreateProjectWithNameFieldWithLessThan2CharactersTestCase
+
+2021-07-23 21:24:14 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.login(): com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:24:14 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 21:24:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 21:24:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-v2.serpwatch.io/login'
+
+2021-07-23 21:24:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:24:34 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 21:24:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:24:34 - [MESSAGE][PASSED] - Keys 'ayatullah.arul@gmail.com' sent to object: 'Object Repository/LoginPage/input_sign in_email'
+
+2021-07-23 21:24:35 - [MESSAGE][PASSED] - Keys 'aaa101' sent to object: 'Object Repository/LoginPage/input_sign in_password'
+
+2021-07-23 21:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_login' is clicked on
+
+2021-07-23 21:24:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:24:42 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:24:42 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_add_project")): Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:24:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube"), Timeout): Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:24:55 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:24:55 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_domain")): Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:24:55 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:24:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreateNewProject/FormPage_1/input_domain_name"), Timeout): Object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name' is present
+
+2021-07-23 21:25:00 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name' is present
+
+2021-07-23 21:25:00 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_project_name"), "S"): Text 'S' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_project_name'
+
+2021-07-23 21:25:07 - [MESSAGE][PASSED] - Text 'S' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_project_name'
+
+2021-07-23 21:25:07 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_domain_name"), "detik.com"): Text 'detik.com' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name'
+
+2021-07-23 21:25:08 - [MESSAGE][PASSED] - Text 'detik.com' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name'
+
+2021-07-23 21:25:08 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_add_your_keyword"), "politik"): Text 'politik' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword'
+
+2021-07-23 21:25:09 - [MESSAGE][PASSED] - Text 'politik' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword'
+
+2021-07-23 21:25:09 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_keyword_suggestions"), "partai"): Text 'partai' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_keyword_suggestions'
+
+2021-07-23 21:25:10 - [MESSAGE][PASSED] - Text 'partai' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_keyword_suggestions'
+
+2021-07-23 21:25:10 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/FormPage_1/button_next")): Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:25:11 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:25:11 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 21:25:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:25:11 - [TEST_STEP][PASSED] - focus(findTestObject("CreateNewProject/FormPage_1/input_project_name")): Object: 'Object Repository/CreateNewProject/FormPage_1/input_project_name' is focused
+
+2021-07-23 21:25:11 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/FormPage_1/input_project_name' is focused
+
+2021-07-23 21:25:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-23 21:25:14 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Project/Negative/TS-CPR-30-CreateProjectUsingInvalidDomainFormatInDomainFieldTestCase" time="51.136" classname="Test Cases/Create Project/Negative/TS-CPR-30-CreateProjectUsingInvalidDomainFormatInDomainFieldTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:25:14 - [TEST_CASE][PASSED] - Test Cases/Create Project/Negative/TS-CPR-30-CreateProjectUsingInvalidDomainFormatInDomainFieldTestCase: Test Cases/Create Project/Negative/TS-CPR-30-CreateProjectUsingInvalidDomainFormatInDomainFieldTestCase
+
+2021-07-23 21:25:15 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.login(): com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:25:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-07-23 21:25:17 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 21:25:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 21:25:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-v2.serpwatch.io/login'
+
+2021-07-23 21:25:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:25:34 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 21:25:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:25:35 - [MESSAGE][PASSED] - Keys 'ayatullah.arul@gmail.com' sent to object: 'Object Repository/LoginPage/input_sign in_email'
+
+2021-07-23 21:25:35 - [MESSAGE][PASSED] - Keys 'aaa101' sent to object: 'Object Repository/LoginPage/input_sign in_password'
+
+2021-07-23 21:25:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_login' is clicked on
+
+2021-07-23 21:25:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:25:43 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:25:43 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_add_project")): Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:25:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube"), Timeout): Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:25:45 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:25:45 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_domain")): Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:25:46 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:25:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreateNewProject/popup_window_creating_project"), Timeout): Object 'Object Repository/CreateNewProject/popup_window_creating_project' is present
+
+2021-07-23 21:25:49 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/popup_window_creating_project' is present
+
+2021-07-23 21:25:49 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_domain_name"), "detik.com"): Text 'detik.com' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name'
+
+2021-07-23 21:25:57 - [MESSAGE][PASSED] - Text 'detik.com' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name'
+
+2021-07-23 21:25:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("CreateNewProject/FormPage_1/input_add_your_keyword"), Timeout): Object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword' is visible
+
+2021-07-23 21:25:58 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword' is visible
+
+2021-07-23 21:25:58 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_add_your_keyword"), "politik"): Text 'politik' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword'
+
+2021-07-23 21:25:58 - [MESSAGE][PASSED] - Text 'politik' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword'
+
+2021-07-23 21:25:58 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_keyword_suggestions"), "partai"): Text 'partai' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_keyword_suggestions'
+
+2021-07-23 21:25:59 - [MESSAGE][PASSED] - Text 'partai' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_keyword_suggestions'
+
+2021-07-23 21:25:59 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/FormPage_1/button_next")): Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:26:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-23 21:26:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-23 21:26:03 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 21:26:05 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 21:26:05 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Project/Negative/TS-CPR-31-CreateProjectWithKeywordLessThan2CharactersTestCase" time="49.456" classname="Test Cases/Create Project/Negative/TS-CPR-31-CreateProjectWithKeywordLessThan2CharactersTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:26:05 - [TEST_CASE][PASSED] - Test Cases/Create Project/Negative/TS-CPR-31-CreateProjectWithKeywordLessThan2CharactersTestCase: Test Cases/Create Project/Negative/TS-CPR-31-CreateProjectWithKeywordLessThan2CharactersTestCase
+
+2021-07-23 21:26:06 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.login(): com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:26:06 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 21:26:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 21:26:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-v2.serpwatch.io/login'
+
+2021-07-23 21:26:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:26:22 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 21:26:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:26:23 - [MESSAGE][PASSED] - Keys 'ayatullah.arul@gmail.com' sent to object: 'Object Repository/LoginPage/input_sign in_email'
+
+2021-07-23 21:26:23 - [MESSAGE][PASSED] - Keys 'aaa101' sent to object: 'Object Repository/LoginPage/input_sign in_password'
+
+2021-07-23 21:26:33 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_login' is clicked on
+
+2021-07-23 21:26:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:26:33 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:26:33 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_add_project")): Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:26:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube"), Timeout): Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:26:34 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:26:34 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_domain")): Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:26:35 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:26:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreateNewProject/popup_window_creating_project"), Timeout): Object 'Object Repository/CreateNewProject/popup_window_creating_project' is present
+
+2021-07-23 21:26:37 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/popup_window_creating_project' is present
+
+2021-07-23 21:26:37 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_domain_name"), "detik.com"): Text 'detik.com' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name'
+
+2021-07-23 21:26:46 - [MESSAGE][PASSED] - Text 'detik.com' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name'
+
+2021-07-23 21:26:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("CreateNewProject/FormPage_1/input_add_your_keyword"), Timeout): Object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword' is visible
+
+2021-07-23 21:26:46 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword' is visible
+
+2021-07-23 21:26:46 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_add_your_keyword"), "politik"): Text 'politik' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword'
+
+2021-07-23 21:26:47 - [MESSAGE][PASSED] - Text 'politik' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword'
+
+2021-07-23 21:26:47 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_keyword_suggestions"), "partai"): Text 'partai' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_keyword_suggestions'
+
+2021-07-23 21:26:48 - [MESSAGE][PASSED] - Text 'partai' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_keyword_suggestions'
+
+2021-07-23 21:26:48 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/FormPage_1/button_next")): Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:26:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:26:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-23 21:26:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-23 21:26:52 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 21:26:55 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 21:26:55 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Project/Negative/TS-CPR-32-UploadCsvWithoutSelectingAnyKeywordsTestCase" time="54.656" classname="Test Cases/Create Project/Negative/TS-CPR-32-UploadCsvWithoutSelectingAnyKeywordsTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:26:55 - [TEST_CASE][PASSED] - Test Cases/Create Project/Negative/TS-CPR-32-UploadCsvWithoutSelectingAnyKeywordsTestCase: Test Cases/Create Project/Negative/TS-CPR-32-UploadCsvWithoutSelectingAnyKeywordsTestCase
+
+2021-07-23 21:26:55 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.login(): com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:26:55 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 21:26:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 21:27:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-v2.serpwatch.io/login'
+
+2021-07-23 21:27:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:27:09 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 21:27:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:27:10 - [MESSAGE][PASSED] - Keys 'ayatullah.arul@gmail.com' sent to object: 'Object Repository/LoginPage/input_sign in_email'
+
+2021-07-23 21:27:10 - [MESSAGE][PASSED] - Keys 'aaa101' sent to object: 'Object Repository/LoginPage/input_sign in_password'
+
+2021-07-23 21:27:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_login' is clicked on
+
+2021-07-23 21:27:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:27:18 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:27:18 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_add_project")): Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:27:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:27:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube"), Timeout): Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:27:29 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:27:29 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_domain")): Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:27:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:27:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreateNewProject/popup_window_creating_project"), Timeout): Object 'Object Repository/CreateNewProject/popup_window_creating_project' is present
+
+2021-07-23 21:27:32 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/popup_window_creating_project' is present
+
+2021-07-23 21:27:32 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_domain_name"), "detik.com"): Text 'detik.com' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name'
+
+2021-07-23 21:27:40 - [MESSAGE][PASSED] - Text 'detik.com' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name'
+
+2021-07-23 21:27:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("CreateNewProject/FormPage_1/input_add_your_keyword"), Timeout): Object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword' is visible
+
+2021-07-23 21:27:41 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword' is visible
+
+2021-07-23 21:27:41 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_add_your_keyword"), "politik"): Text 'politik' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword'
+
+2021-07-23 21:27:41 - [MESSAGE][PASSED] - Text 'politik' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword'
+
+2021-07-23 21:27:41 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_keyword_suggestions"), "partai"): Text 'partai' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_keyword_suggestions'
+
+2021-07-23 21:27:42 - [MESSAGE][PASSED] - Text 'partai' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_keyword_suggestions'
+
+2021-07-23 21:27:42 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/FormPage_1/button_next")): Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:27:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-23 21:27:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-23 21:27:46 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 21:27:49 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 21:27:49 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Project/Negative/TS-CPR-33-CreateProjectThatIsGoingOverTheChecksLimitOfTheUsersPlanTestCase" time="45.747" classname="Test Cases/Create Project/Negative/TS-CPR-33-CreateProjectThatIsGoingOverTheChecksLimitOfTheUsersPlanTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:27:49 - [TEST_CASE][PASSED] - Test Cases/Create Project/Negative/TS-CPR-33-CreateProjectThatIsGoingOverTheChecksLimitOfTheUsersPlanTestCase: Test Cases/Create Project/Negative/TS-CPR-33-CreateProjectThatIsGoingOverTheChecksLimitOfTheUsersPlanTestCase
+
+2021-07-23 21:27:50 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.login(): com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:27:50 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 21:27:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 21:28:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-v2.serpwatch.io/login'
+
+2021-07-23 21:28:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:28:05 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 21:28:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:28:06 - [MESSAGE][PASSED] - Keys 'ayatullah.arul@gmail.com' sent to object: 'Object Repository/LoginPage/input_sign in_email'
+
+2021-07-23 21:28:06 - [MESSAGE][PASSED] - Keys 'aaa101' sent to object: 'Object Repository/LoginPage/input_sign in_password'
+
+2021-07-23 21:28:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_login' is clicked on
+
+2021-07-23 21:28:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:28:13 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.login is PASSED
+
+2021-07-23 21:28:13 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_add_project")): Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:28:14 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_add_project' is clicked on
+
+2021-07-23 21:28:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube"), Timeout): Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:28:15 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/popup_frame_choose_ project_type_domain_or_youtube' is visible
+
+2021-07-23 21:28:15 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/button_domain")): Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/button_domain' is clicked on
+
+2021-07-23 21:28:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreateNewProject/popup_window_creating_project"), Timeout): Object 'Object Repository/CreateNewProject/popup_window_creating_project' is present
+
+2021-07-23 21:28:18 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/popup_window_creating_project' is present
+
+2021-07-23 21:28:18 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_domain_name"), "detik.com"): Text 'detik.com' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name'
+
+2021-07-23 21:28:26 - [MESSAGE][PASSED] - Text 'detik.com' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_domain_name'
+
+2021-07-23 21:28:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("CreateNewProject/FormPage_1/input_add_your_keyword"), Timeout): Object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword' is visible
+
+2021-07-23 21:28:26 - [MESSAGE][PASSED] - Object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword' is visible
+
+2021-07-23 21:28:26 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_add_your_keyword"), "politik"): Text 'politik' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword'
+
+2021-07-23 21:28:27 - [MESSAGE][PASSED] - Text 'politik' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_add_your_keyword'
+
+2021-07-23 21:28:27 - [TEST_STEP][PASSED] - setText(findTestObject("CreateNewProject/FormPage_1/input_keyword_suggestions"), "partai"): Text 'partai' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_keyword_suggestions'
+
+2021-07-23 21:28:28 - [MESSAGE][PASSED] - Text 'partai' is set on object 'Object Repository/CreateNewProject/FormPage_1/input_keyword_suggestions'
+
+2021-07-23 21:28:28 - [TEST_STEP][PASSED] - click(findTestObject("CreateNewProject/FormPage_1/button_next")): Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:28:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateNewProject/FormPage_1/button_next' is clicked on
+
+2021-07-23 21:28:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-23 21:28:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-23 21:28:32 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 21:28:35 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 21:28:35 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-23 21:18:52 - [TEST_SUITE][PASSED] - CreateProjectNegativeTestSuite: Test Cases/Create Project/Negative/TS-CPR-33-CreateProjectThatIsGoingOverTheChecksLimitOfTheUsersPlanTestCase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

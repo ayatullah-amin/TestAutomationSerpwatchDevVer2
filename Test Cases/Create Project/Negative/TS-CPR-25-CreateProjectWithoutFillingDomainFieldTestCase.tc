@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Create a project without filling the domain field.
-Expected: Cannot proceed to 2nd page of the setup</description>
+Expected: Cannot proceed to 2nd page of the setup with relevant error message displayed below the Domain field.</description>
    <name>TS-CPR-25-CreateProjectWithoutFillingDomainFieldTestCase</name>
    <tag>create project</tag>
    <comment></comment>

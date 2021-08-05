@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sign in as editor, try to delete the assigned project.
+Expected: User is unable to delete project. Only owner is able to delete the project.</description>
+   <name>TS-SHP-14-SignInAsEditorAndTryToDeleteTheAssignedProjectTestCase</name>
+   <tag>share project</tag>
+   <comment></comment>
+   <testCaseGuid>13fd8200-57c8-44f2-bc2a-f91e9d2d5cad</testCaseGuid>
+</TestCaseEntity>

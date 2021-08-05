@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add a keyword containing less than 2 characters.
+Expected: User cannot proceed to 2nd page of the setup</description>
+   <name>TS-EPR-29-AddKeywordContainingLessThan2CharactersTestCase</name>
+   <tag>edit project</tag>
+   <comment></comment>
+   <testCaseGuid>19e7c7de-ae37-4338-827b-627e2e727f80</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Change domain name to an invalid format.
+Expected: User cannot proceed to 2nd page of the setup</description>
+   <name>TS-EPR-33-ChangeDomainNameToAnInvalidFormatTestCase</name>
+   <tag>edit project</tag>
+   <comment></comment>
+   <testCaseGuid>1db0a68d-f250-4db2-9217-d565de2d175b</testCaseGuid>
+</TestCaseEntity>

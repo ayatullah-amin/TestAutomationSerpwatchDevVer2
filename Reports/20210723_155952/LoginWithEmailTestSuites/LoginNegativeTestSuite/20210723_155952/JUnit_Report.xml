@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginNegativeTestSuite" time="795.464" tests="14" failures="0" errors="0">
+   <testsuite name="LoginNegativeTestSuite" tests="14" failures="0" errors="0" time="795.464" skipped="0" timestamp="2021-07-23 15:59:57" hostname="arul - 192.168.0.106" id="Test Suites/LoginWithEmailTestSuites/LoginNegativeTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\NICHE STACK\\SERPWATCH TEAM\\QA Automation\\Katalon\\Dev Server Version 2\\TestAutomationSerpwatchDevVer2\\Reports\\20210723_155952\\LoginWithEmailTestSuites\\LoginNegativeTestSuite\\20210723_155952"/>
+         <property name="logFiles" value="D:\\NICHE STACK\\SERPWATCH TEAM\\QA Automation\\Katalon\\Dev Server Version 2\\TestAutomationSerpwatchDevVer2\\Reports\\20210723_155952\\LoginWithEmailTestSuites\\LoginNegativeTestSuite\\20210723_155952\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="arul - 192.168.0.106"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Firefox 89.0"/>
+         <property name="hostAddress" value="192.168.0.106"/>
+         <property name="sessionId" value="d6d50227-a13e-4c30-b224-74fa781ca21b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RegisterAndLogin/Negative/TS-LGN-24-LoginWithUnregisteredEmailTestCase" time="32.171" classname="Test Cases/RegisterAndLogin/Negative/TS-LGN-24-LoginWithUnregisteredEmailTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 15:59:58 - [TEST_CASE][PASSED] - Test Cases/RegisterAndLogin/Negative/TS-LGN-24-LoginWithUnregisteredEmailTestCase: Test Cases/RegisterAndLogin/Negative/TS-LGN-24-LoginWithUnregisteredEmailTestCase
+
+2021-07-23 15:59:58 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.openBrowser(): com.helper.browserhelper.CustomBrowser.openBrowser is PASSED
+
+2021-07-23 15:59:59 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 16:00:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 16:00:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.serpwatch.io/login'
+
+2021-07-23 16:00:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:00:19 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 16:00:19 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.openBrowser is PASSED
+
+2021-07-23 16:00:19 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_sign in_email"), "aaa@gmail.com"): Text 'aaa@gmail.com' is set on object 'Object Repository/LoginPage/input_sign in_email'
+
+2021-07-23 16:00:20 - [MESSAGE][PASSED] - Text 'aaa@gmail.com' is set on object 'Object Repository/LoginPage/input_sign in_email'
+
+2021-07-23 16:00:20 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_sign in_password"), "abc"): Text 'abc' is set on object 'Object Repository/LoginPage/input_sign in_password'
+
+2021-07-23 16:00:21 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/LoginPage/input_sign in_password'
+
+2021-07-23 16:00:21 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/button_login")): Object: 'Object Repository/LoginPage/button_login' is clicked on
+
+2021-07-23 16:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_login' is clicked on
+
+2021-07-23 16:00:27 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:00:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:00:27 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 16:00:30 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 16:00:30 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegisterAndLogin/Negative/TS-LGN-25-LoginWithWrongPasswordTestCase" time="26.475" classname="Test Cases/RegisterAndLogin/Negative/TS-LGN-25-LoginWithWrongPasswordTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 16:00:30 - [TEST_CASE][PASSED] - Test Cases/RegisterAndLogin/Negative/TS-LGN-25-LoginWithWrongPasswordTestCase: Test Cases/RegisterAndLogin/Negative/TS-LGN-25-LoginWithWrongPasswordTestCase
+
+2021-07-23 16:00:30 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.openBrowser(): com.helper.browserhelper.CustomBrowser.openBrowser is PASSED
+
+2021-07-23 16:00:30 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 16:00:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 16:00:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.serpwatch.io/login'
+
+2021-07-23 16:00:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:00:46 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 16:00:46 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.openBrowser is PASSED
+
+2021-07-23 16:00:46 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_sign in_email"), LoginUsername): Text 'ayatullah.arul@gmail.com' is set on object 'Object Repository/LoginPage/input_sign in_email'
+
+2021-07-23 16:00:48 - [MESSAGE][PASSED] - Text 'ayatullah.arul@gmail.com' is set on object 'Object Repository/LoginPage/input_sign in_email'
+
+2021-07-23 16:00:48 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_sign in_password"), "abc"): Text 'abc' is set on object 'Object Repository/LoginPage/input_sign in_password'
+
+2021-07-23 16:00:49 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/LoginPage/input_sign in_password'
+
+2021-07-23 16:00:49 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/button_login")): Object: 'Object Repository/LoginPage/button_login' is clicked on
+
+2021-07-23 16:00:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_login' is clicked on
+
+2021-07-23 16:00:54 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:00:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:00:54 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 16:00:56 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 16:00:56 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegisterAndLogin/Negative/TS-LGN-12-RegisterWithWrongEmailFormatTestCase" time="72.995" classname="Test Cases/RegisterAndLogin/Negative/TS-LGN-12-RegisterWithWrongEmailFormatTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 16:00:56 - [TEST_CASE][PASSED] - Test Cases/RegisterAndLogin/Negative/TS-LGN-12-RegisterWithWrongEmailFormatTestCase: Test Cases/RegisterAndLogin/Negative/TS-LGN-12-RegisterWithWrongEmailFormatTestCase
+
+2021-07-23 16:00:57 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage(): com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:00:57 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 16:00:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 16:01:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.serpwatch.io/login'
+
+2021-07-23 16:01:14 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 16:01:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //body[@id='login']/div[2]/p/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-23 16:01:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/LoginPage/button_get_started'. Try using Self-healing.
+
+2021-07-23 16:01:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//body[@id='login']/div[2]/p/a'.
+
+2021-07-23 16:01:47 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//a[contains(text(),'Get started Free')]'.
+
+2021-07-23 16:01:48 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: D:/NICHE STACK/SERPWATCH TEAM/QA Automation/Katalon/Dev Server Version 2/TestAutomationSerpwatchDevVer2/Reports/Self-healing/Object Repository/LoginPage/button_get_started_link.png
+
+2021-07-23 16:01:48 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/LoginPage/button_get_started' was broken. Propose an alternative one: '//a[contains(text(),'Get started Free')]'.
+
+2021-07-23 16:01:55 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_get_started' is clicked on
+
+2021-07-23 16:01:55 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:01:55 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:01:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:01:55 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_name"), "aabbbccc"): Text 'aabbbccc' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:01:57 - [MESSAGE][PASSED] - Text 'aabbbccc' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:01:57 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_email"), "aaabc"): Text 'aaabc' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:01:59 - [MESSAGE][PASSED] - Text 'aaabc' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:01:59 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_password"), "aaabbb"): Text 'aaabbb' is set on object 'Object Repository/RegisterPage/input_signup_password'
+
+2021-07-23 16:02:01 - [MESSAGE][PASSED] - Text 'aaabbb' is set on object 'Object Repository/RegisterPage/input_signup_password'
+
+2021-07-23 16:02:01 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_password_confirmation"), "aaabbb"): Text 'aaabbb' is set on object 'Object Repository/RegisterPage/input_signup_password_confirmation'
+
+2021-07-23 16:02:02 - [MESSAGE][PASSED] - Text 'aaabbb' is set on object 'Object Repository/RegisterPage/input_signup_password_confirmation'
+
+2021-07-23 16:02:02 - [TEST_STEP][PASSED] - check(findTestObject("RegisterPage/checkbox_agreement")): Object 'Object Repository/RegisterPage/checkbox_agreement' is checked
+
+2021-07-23 16:02:03 - [MESSAGE][PASSED] - Object 'Object Repository/RegisterPage/checkbox_agreement' is checked
+
+2021-07-23 16:02:03 - [TEST_STEP][PASSED] - click(findTestObject("RegisterPage/button_register")): Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:02:04 - [MESSAGE][PASSED] - Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:02:04 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:02:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:02:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-23 16:02:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-23 16:02:07 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 16:02:09 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 16:02:09 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegisterAndLogin/Negative/TS-LGN-13-RegisterWithPasswordUnder6CharactersTestCase" time="73.959" classname="Test Cases/RegisterAndLogin/Negative/TS-LGN-13-RegisterWithPasswordUnder6CharactersTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 16:02:09 - [TEST_CASE][PASSED] - Test Cases/RegisterAndLogin/Negative/TS-LGN-13-RegisterWithPasswordUnder6CharactersTestCase: Test Cases/RegisterAndLogin/Negative/TS-LGN-13-RegisterWithPasswordUnder6CharactersTestCase
+
+2021-07-23 16:02:10 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage(): com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:02:10 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 16:02:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 16:02:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.serpwatch.io/login'
+
+2021-07-23 16:02:30 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 16:03:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //body[@id='login']/div[2]/p/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-23 16:03:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/LoginPage/button_get_started'. Try using Self-healing.
+
+2021-07-23 16:03:01 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/LoginPage/button_get_started' was broken. Propose an alternative one: '//a[contains(text(),'Get started Free')]'.
+
+2021-07-23 16:03:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_get_started' is clicked on
+
+2021-07-23 16:03:05 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:03:05 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:03:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:03:05 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_name"), "aabbbccc"): Text 'aabbbccc' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:03:10 - [MESSAGE][PASSED] - Text 'aabbbccc' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:03:10 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_email"), "aaa@gmail.com"): Text 'aaa@gmail.com' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:03:12 - [MESSAGE][PASSED] - Text 'aaa@gmail.com' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:03:12 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_password"), "aaa"): Text 'aaa' is set on object 'Object Repository/RegisterPage/input_signup_password'
+
+2021-07-23 16:03:13 - [MESSAGE][PASSED] - Text 'aaa' is set on object 'Object Repository/RegisterPage/input_signup_password'
+
+2021-07-23 16:03:13 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_password_confirmation"), "aaa"): Text 'aaa' is set on object 'Object Repository/RegisterPage/input_signup_password_confirmation'
+
+2021-07-23 16:03:14 - [MESSAGE][PASSED] - Text 'aaa' is set on object 'Object Repository/RegisterPage/input_signup_password_confirmation'
+
+2021-07-23 16:03:14 - [TEST_STEP][PASSED] - check(findTestObject("RegisterPage/checkbox_agreement")): Object 'Object Repository/RegisterPage/checkbox_agreement' is checked
+
+2021-07-23 16:03:14 - [MESSAGE][PASSED] - Object 'Object Repository/RegisterPage/checkbox_agreement' is checked
+
+2021-07-23 16:03:14 - [TEST_STEP][PASSED] - click(findTestObject("RegisterPage/button_register")): Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:03:17 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:03:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:03:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-23 16:03:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-23 16:03:20 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 16:03:23 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 16:03:23 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegisterAndLogin/Negative/TS-LGN-14-RegisterWithNameUnder3CharactersTestCase" time="74.593" classname="Test Cases/RegisterAndLogin/Negative/TS-LGN-14-RegisterWithNameUnder3CharactersTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 16:03:23 - [TEST_CASE][PASSED] - Test Cases/RegisterAndLogin/Negative/TS-LGN-14-RegisterWithNameUnder3CharactersTestCase: Test Cases/RegisterAndLogin/Negative/TS-LGN-14-RegisterWithNameUnder3CharactersTestCase
+
+2021-07-23 16:03:24 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage(): com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:03:24 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 16:03:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 16:03:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.serpwatch.io/login'
+
+2021-07-23 16:03:41 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 16:04:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //body[@id='login']/div[2]/p/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-23 16:04:12 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/LoginPage/button_get_started'. Try using Self-healing.
+
+2021-07-23 16:04:13 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/LoginPage/button_get_started' was broken. Propose an alternative one: '//a[contains(text(),'Get started Free')]'.
+
+2021-07-23 16:04:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_get_started' is clicked on
+
+2021-07-23 16:04:16 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:04:16 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:04:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:04:16 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_name"), "aa"): Text 'aa' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:04:20 - [MESSAGE][PASSED] - Text 'aa' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:04:20 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_email"), "aaa@gmail.com"): Text 'aaa@gmail.com' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:04:21 - [MESSAGE][PASSED] - Text 'aaa@gmail.com' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:04:21 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_password"), "aaaaaa"): Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password'
+
+2021-07-23 16:04:21 - [MESSAGE][PASSED] - Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password'
+
+2021-07-23 16:04:21 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_password_confirmation"), "aaaaaa"): Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password_confirmation'
+
+2021-07-23 16:04:23 - [MESSAGE][PASSED] - Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password_confirmation'
+
+2021-07-23 16:04:23 - [TEST_STEP][PASSED] - check(findTestObject("RegisterPage/checkbox_agreement")): Object 'Object Repository/RegisterPage/checkbox_agreement' is checked
+
+2021-07-23 16:04:24 - [MESSAGE][PASSED] - Object 'Object Repository/RegisterPage/checkbox_agreement' is checked
+
+2021-07-23 16:04:24 - [TEST_STEP][PASSED] - click(findTestObject("RegisterPage/button_register")): Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:04:33 - [MESSAGE][PASSED] - Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:04:33 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:04:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:04:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-23 16:04:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-23 16:04:36 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 16:04:38 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 16:04:38 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegisterAndLogin/Negative/TS-LGN-15-RegisterWithInvalidNameFormatTestCase" time="66.284" classname="Test Cases/RegisterAndLogin/Negative/TS-LGN-15-RegisterWithInvalidNameFormatTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 16:04:38 - [TEST_CASE][PASSED] - Test Cases/RegisterAndLogin/Negative/TS-LGN-15-RegisterWithInvalidNameFormatTestCase: Test Cases/RegisterAndLogin/Negative/TS-LGN-15-RegisterWithInvalidNameFormatTestCase
+
+2021-07-23 16:04:38 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage(): com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:04:38 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 16:04:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 16:04:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.serpwatch.io/login'
+
+2021-07-23 16:04:54 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 16:05:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //body[@id='login']/div[2]/p/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-23 16:05:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/LoginPage/button_get_started'. Try using Self-healing.
+
+2021-07-23 16:05:26 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/LoginPage/button_get_started' was broken. Propose an alternative one: '//a[contains(text(),'Get started Free')]'.
+
+2021-07-23 16:05:31 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_get_started' is clicked on
+
+2021-07-23 16:05:31 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:05:31 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:05:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:05:31 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_name"), "@#$@#$"): Text '@#$@#$' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:05:32 - [MESSAGE][PASSED] - Text '@#$@#$' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:05:32 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_email"), "aaa@gmail.com"): Text 'aaa@gmail.com' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:05:33 - [MESSAGE][PASSED] - Text 'aaa@gmail.com' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:05:33 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_password"), "aaaaaa"): Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password'
+
+2021-07-23 16:05:34 - [MESSAGE][PASSED] - Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password'
+
+2021-07-23 16:05:34 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_password_confirmation"), "aaaaaa"): Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password_confirmation'
+
+2021-07-23 16:05:35 - [MESSAGE][PASSED] - Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password_confirmation'
+
+2021-07-23 16:05:35 - [TEST_STEP][PASSED] - check(findTestObject("RegisterPage/checkbox_agreement")): Object 'Object Repository/RegisterPage/checkbox_agreement' is checked
+
+2021-07-23 16:05:35 - [MESSAGE][PASSED] - Object 'Object Repository/RegisterPage/checkbox_agreement' is checked
+
+2021-07-23 16:05:35 - [TEST_STEP][PASSED] - click(findTestObject("RegisterPage/button_register")): Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:05:39 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:05:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:05:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-23 16:05:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-23 16:05:43 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 16:05:44 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 16:05:44 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegisterAndLogin/Negative/TS-LGN-16-RegisterWithoutAcceptingToSTestCase" time="65.976" classname="Test Cases/RegisterAndLogin/Negative/TS-LGN-16-RegisterWithoutAcceptingToSTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 16:05:44 - [TEST_CASE][PASSED] - Test Cases/RegisterAndLogin/Negative/TS-LGN-16-RegisterWithoutAcceptingToSTestCase: Test Cases/RegisterAndLogin/Negative/TS-LGN-16-RegisterWithoutAcceptingToSTestCase
+
+2021-07-23 16:05:45 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage(): com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:05:45 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 16:05:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 16:06:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.serpwatch.io/login'
+
+2021-07-23 16:06:03 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 16:06:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //body[@id='login']/div[2]/p/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-23 16:06:35 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/LoginPage/button_get_started'. Try using Self-healing.
+
+2021-07-23 16:06:35 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/LoginPage/button_get_started' was broken. Propose an alternative one: '//a[contains(text(),'Get started Free')]'.
+
+2021-07-23 16:06:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_get_started' is clicked on
+
+2021-07-23 16:06:39 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:06:39 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:06:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:06:40 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_name"), "aabbbccc"): Text 'aabbbccc' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:06:41 - [MESSAGE][PASSED] - Text 'aabbbccc' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:06:41 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_email"), "aaa@gmail.com"): Text 'aaa@gmail.com' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:06:42 - [MESSAGE][PASSED] - Text 'aaa@gmail.com' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:06:42 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_password"), "aaaaaa"): Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password'
+
+2021-07-23 16:06:43 - [MESSAGE][PASSED] - Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password'
+
+2021-07-23 16:06:43 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_password_confirmation"), "aaaaaa"): Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password_confirmation'
+
+2021-07-23 16:06:44 - [MESSAGE][PASSED] - Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password_confirmation'
+
+2021-07-23 16:06:44 - [TEST_STEP][PASSED] - click(findTestObject("RegisterPage/button_register")): Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:06:45 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:06:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:06:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-23 16:06:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-23 16:06:48 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 16:06:50 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 16:06:50 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegisterAndLogin/Negative/TS-LGN-17-RegisterWithNotMatchingPasswordConfirmTestCase" time="71.487" classname="Test Cases/RegisterAndLogin/Negative/TS-LGN-17-RegisterWithNotMatchingPasswordConfirmTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 16:06:50 - [TEST_CASE][PASSED] - Test Cases/RegisterAndLogin/Negative/TS-LGN-17-RegisterWithNotMatchingPasswordConfirmTestCase: Test Cases/RegisterAndLogin/Negative/TS-LGN-17-RegisterWithNotMatchingPasswordConfirmTestCase
+
+2021-07-23 16:06:51 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage(): com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:06:51 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 16:06:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 16:07:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.serpwatch.io/login'
+
+2021-07-23 16:07:10 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 16:07:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //body[@id='login']/div[2]/p/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-23 16:07:41 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/LoginPage/button_get_started'. Try using Self-healing.
+
+2021-07-23 16:07:41 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/LoginPage/button_get_started' was broken. Propose an alternative one: '//a[contains(text(),'Get started Free')]'.
+
+2021-07-23 16:07:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_get_started' is clicked on
+
+2021-07-23 16:07:46 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:07:46 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:07:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:07:46 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_name"), "aabbbccc"): Text 'aabbbccc' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:07:50 - [MESSAGE][PASSED] - Text 'aabbbccc' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:07:50 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_email"), "aaa@gmail.com"): Text 'aaa@gmail.com' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:07:51 - [MESSAGE][PASSED] - Text 'aaa@gmail.com' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:07:51 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_password"), "aaaaaa"): Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password'
+
+2021-07-23 16:07:52 - [MESSAGE][PASSED] - Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password'
+
+2021-07-23 16:07:52 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_password_confirmation"), "aaabbb"): Text 'aaabbb' is set on object 'Object Repository/RegisterPage/input_signup_password_confirmation'
+
+2021-07-23 16:07:53 - [MESSAGE][PASSED] - Text 'aaabbb' is set on object 'Object Repository/RegisterPage/input_signup_password_confirmation'
+
+2021-07-23 16:07:53 - [TEST_STEP][PASSED] - check(findTestObject("RegisterPage/checkbox_agreement")): Object 'Object Repository/RegisterPage/checkbox_agreement' is checked
+
+2021-07-23 16:07:53 - [MESSAGE][PASSED] - Object 'Object Repository/RegisterPage/checkbox_agreement' is checked
+
+2021-07-23 16:07:53 - [TEST_STEP][PASSED] - click(findTestObject("RegisterPage/button_register")): Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:07:56 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:07:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:07:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-23 16:07:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-23 16:07:59 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 16:08:02 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 16:08:02 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegisterAndLogin/Negative/TS-LGN-18-RegisterWithoutFillingPasswordConfFieldTestCase" time="62.324" classname="Test Cases/RegisterAndLogin/Negative/TS-LGN-18-RegisterWithoutFillingPasswordConfFieldTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 16:08:02 - [TEST_CASE][PASSED] - Test Cases/RegisterAndLogin/Negative/TS-LGN-18-RegisterWithoutFillingPasswordConfFieldTestCase: Test Cases/RegisterAndLogin/Negative/TS-LGN-18-RegisterWithoutFillingPasswordConfFieldTestCase
+
+2021-07-23 16:08:02 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage(): com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:08:02 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 16:08:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 16:08:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.serpwatch.io/login'
+
+2021-07-23 16:08:16 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 16:08:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //body[@id='login']/div[2]/p/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-23 16:08:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/LoginPage/button_get_started'. Try using Self-healing.
+
+2021-07-23 16:08:48 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/LoginPage/button_get_started' was broken. Propose an alternative one: '//a[contains(text(),'Get started Free')]'.
+
+2021-07-23 16:08:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_get_started' is clicked on
+
+2021-07-23 16:08:54 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:08:54 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:08:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:08:54 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_name"), "aabbbccc"): Text 'aabbbccc' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:08:55 - [MESSAGE][PASSED] - Text 'aabbbccc' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:08:55 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_email"), "aaa@gmail.com"): Text 'aaa@gmail.com' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:08:56 - [MESSAGE][PASSED] - Text 'aaa@gmail.com' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:08:56 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_password"), "aaaaaa"): Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password'
+
+2021-07-23 16:08:57 - [MESSAGE][PASSED] - Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password'
+
+2021-07-23 16:08:57 - [TEST_STEP][PASSED] - check(findTestObject("RegisterPage/checkbox_agreement")): Object 'Object Repository/RegisterPage/checkbox_agreement' is checked
+
+2021-07-23 16:08:58 - [MESSAGE][PASSED] - Object 'Object Repository/RegisterPage/checkbox_agreement' is checked
+
+2021-07-23 16:08:58 - [TEST_STEP][PASSED] - click(findTestObject("RegisterPage/button_register")): Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:08:59 - [MESSAGE][PASSED] - Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:08:59 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:08:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:08:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-23 16:09:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-23 16:09:02 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 16:09:04 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 16:09:04 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegisterAndLogin/Negative/TS-LGN-19-RegisterWithNameFieldEmptyTestCase" time="64.105" classname="Test Cases/RegisterAndLogin/Negative/TS-LGN-19-RegisterWithNameFieldEmptyTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 16:09:04 - [TEST_CASE][PASSED] - Test Cases/RegisterAndLogin/Negative/TS-LGN-19-RegisterWithNameFieldEmptyTestCase: Test Cases/RegisterAndLogin/Negative/TS-LGN-19-RegisterWithNameFieldEmptyTestCase
+
+2021-07-23 16:09:04 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage(): com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:09:04 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 16:09:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 16:09:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.serpwatch.io/login'
+
+2021-07-23 16:09:20 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 16:09:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //body[@id='login']/div[2]/p/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-23 16:09:52 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/LoginPage/button_get_started'. Try using Self-healing.
+
+2021-07-23 16:09:52 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/LoginPage/button_get_started' was broken. Propose an alternative one: '//a[contains(text(),'Get started Free')]'.
+
+2021-07-23 16:09:55 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_get_started' is clicked on
+
+2021-07-23 16:09:55 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:09:55 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:09:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:09:56 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_name"), ""): Text '' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:09:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:09:58 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_email"), "aaa@gmail.com"): Text 'aaa@gmail.com' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:09:58 - [MESSAGE][PASSED] - Text 'aaa@gmail.com' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:09:58 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_password"), "aaaaaa"): Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password'
+
+2021-07-23 16:09:59 - [MESSAGE][PASSED] - Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password'
+
+2021-07-23 16:09:59 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_password_confirmation"), "aaaaaa"): Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password_confirmation'
+
+2021-07-23 16:10:01 - [MESSAGE][PASSED] - Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password_confirmation'
+
+2021-07-23 16:10:01 - [TEST_STEP][PASSED] - check(findTestObject("RegisterPage/checkbox_agreement")): Object 'Object Repository/RegisterPage/checkbox_agreement' is checked
+
+2021-07-23 16:10:01 - [MESSAGE][PASSED] - Object 'Object Repository/RegisterPage/checkbox_agreement' is checked
+
+2021-07-23 16:10:01 - [TEST_STEP][PASSED] - click(findTestObject("RegisterPage/button_register")): Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:10:02 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:10:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:10:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-23 16:10:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-23 16:10:05 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 16:10:08 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 16:10:08 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegisterAndLogin/Negative/TS-LGN-20-RegisterWithEmailFieldEmptyTestCase" time="65.838" classname="Test Cases/RegisterAndLogin/Negative/TS-LGN-20-RegisterWithEmailFieldEmptyTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 16:10:08 - [TEST_CASE][PASSED] - Test Cases/RegisterAndLogin/Negative/TS-LGN-20-RegisterWithEmailFieldEmptyTestCase: Test Cases/RegisterAndLogin/Negative/TS-LGN-20-RegisterWithEmailFieldEmptyTestCase
+
+2021-07-23 16:10:09 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage(): com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:10:09 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 16:10:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 16:10:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.serpwatch.io/login'
+
+2021-07-23 16:10:24 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 16:10:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //body[@id='login']/div[2]/p/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-23 16:10:55 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/LoginPage/button_get_started'. Try using Self-healing.
+
+2021-07-23 16:10:56 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/LoginPage/button_get_started' was broken. Propose an alternative one: '//a[contains(text(),'Get started Free')]'.
+
+2021-07-23 16:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_get_started' is clicked on
+
+2021-07-23 16:10:59 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:10:59 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:10:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:10:59 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_name"), "aaa"): Text 'aaa' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:11:05 - [MESSAGE][PASSED] - Text 'aaa' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:11:05 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_email"), ""): Text '' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:11:06 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:11:06 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_password"), "aaaaaa"): Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password'
+
+2021-07-23 16:11:06 - [MESSAGE][PASSED] - Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password'
+
+2021-07-23 16:11:06 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_password_confirmation"), "aaaaaa"): Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password_confirmation'
+
+2021-07-23 16:11:07 - [MESSAGE][PASSED] - Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password_confirmation'
+
+2021-07-23 16:11:07 - [TEST_STEP][PASSED] - check(findTestObject("RegisterPage/checkbox_agreement")): Object 'Object Repository/RegisterPage/checkbox_agreement' is checked
+
+2021-07-23 16:11:08 - [MESSAGE][PASSED] - Object 'Object Repository/RegisterPage/checkbox_agreement' is checked
+
+2021-07-23 16:11:08 - [TEST_STEP][PASSED] - click(findTestObject("RegisterPage/button_register")): Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:11:09 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:11:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:11:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-23 16:11:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-23 16:11:12 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 16:11:14 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 16:11:14 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegisterAndLogin/Negative/TS-LGN-21-RegisterWithPasswordFieldEmptyTestCase" time="66.549" classname="Test Cases/RegisterAndLogin/Negative/TS-LGN-21-RegisterWithPasswordFieldEmptyTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 16:11:14 - [TEST_CASE][PASSED] - Test Cases/RegisterAndLogin/Negative/TS-LGN-21-RegisterWithPasswordFieldEmptyTestCase: Test Cases/RegisterAndLogin/Negative/TS-LGN-21-RegisterWithPasswordFieldEmptyTestCase
+
+2021-07-23 16:11:14 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage(): com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:11:14 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 16:11:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 16:11:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.serpwatch.io/login'
+
+2021-07-23 16:11:30 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 16:12:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //body[@id='login']/div[2]/p/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-23 16:12:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/LoginPage/button_get_started'. Try using Self-healing.
+
+2021-07-23 16:12:02 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/LoginPage/button_get_started' was broken. Propose an alternative one: '//a[contains(text(),'Get started Free')]'.
+
+2021-07-23 16:12:06 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_get_started' is clicked on
+
+2021-07-23 16:12:06 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.openRegisterPage is PASSED
+
+2021-07-23 16:12:06 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:12:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:12:06 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_name"), "aabbbccc"): Text 'aabbbccc' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:12:13 - [MESSAGE][PASSED] - Text 'aabbbccc' is set on object 'Object Repository/RegisterPage/input_signup_name'
+
+2021-07-23 16:12:13 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_email"), "aaa@gmail.com"): Text 'aaa@gmail.com' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:12:14 - [MESSAGE][PASSED] - Text 'aaa@gmail.com' is set on object 'Object Repository/RegisterPage/input_signup_email'
+
+2021-07-23 16:12:14 - [TEST_STEP][PASSED] - setText(findTestObject("RegisterPage/input_signup_password_confirmation"), "aaaaaa"): Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password_confirmation'
+
+2021-07-23 16:12:14 - [MESSAGE][PASSED] - Text 'aaaaaa' is set on object 'Object Repository/RegisterPage/input_signup_password_confirmation'
+
+2021-07-23 16:12:14 - [TEST_STEP][PASSED] - check(findTestObject("RegisterPage/checkbox_agreement")): Object 'Object Repository/RegisterPage/checkbox_agreement' is checked
+
+2021-07-23 16:12:15 - [MESSAGE][PASSED] - Object 'Object Repository/RegisterPage/checkbox_agreement' is checked
+
+2021-07-23 16:12:15 - [TEST_STEP][PASSED] - click(findTestObject("RegisterPage/button_register")): Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/RegisterPage/button_register' is clicked on
+
+2021-07-23 16:12:16 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:12:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:12:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-23 16:12:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-23 16:12:19 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 16:12:21 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 16:12:21 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegisterAndLogin/Negative/TS-LGN-24-LoginWithUnregisteredEmailTestCase" time="27.175" classname="Test Cases/RegisterAndLogin/Negative/TS-LGN-24-LoginWithUnregisteredEmailTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 16:12:21 - [TEST_CASE][PASSED] - Test Cases/RegisterAndLogin/Negative/TS-LGN-24-LoginWithUnregisteredEmailTestCase: Test Cases/RegisterAndLogin/Negative/TS-LGN-24-LoginWithUnregisteredEmailTestCase
+
+2021-07-23 16:12:21 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.openBrowser(): com.helper.browserhelper.CustomBrowser.openBrowser is PASSED
+
+2021-07-23 16:12:21 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 16:12:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 16:12:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.serpwatch.io/login'
+
+2021-07-23 16:12:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:12:38 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 16:12:38 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.openBrowser is PASSED
+
+2021-07-23 16:12:38 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_sign in_email"), "aaa@gmail.com"): Text 'aaa@gmail.com' is set on object 'Object Repository/LoginPage/input_sign in_email'
+
+2021-07-23 16:12:40 - [MESSAGE][PASSED] - Text 'aaa@gmail.com' is set on object 'Object Repository/LoginPage/input_sign in_email'
+
+2021-07-23 16:12:40 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_sign in_password"), "abc"): Text 'abc' is set on object 'Object Repository/LoginPage/input_sign in_password'
+
+2021-07-23 16:12:41 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/LoginPage/input_sign in_password'
+
+2021-07-23 16:12:41 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/button_login")): Object: 'Object Repository/LoginPage/button_login' is clicked on
+
+2021-07-23 16:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_login' is clicked on
+
+2021-07-23 16:12:44 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:12:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:12:44 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 16:12:48 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 16:12:48 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RegisterAndLogin/Negative/TS-LGN-25-LoginWithWrongPasswordTestCase" time="20.853" classname="Test Cases/RegisterAndLogin/Negative/TS-LGN-25-LoginWithWrongPasswordTestCase" status="PASSED">
+         <system-out><![CDATA[2021-07-23 16:12:48 - [TEST_CASE][PASSED] - Test Cases/RegisterAndLogin/Negative/TS-LGN-25-LoginWithWrongPasswordTestCase: Test Cases/RegisterAndLogin/Negative/TS-LGN-25-LoginWithWrongPasswordTestCase
+
+2021-07-23 16:12:48 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.openBrowser(): com.helper.browserhelper.CustomBrowser.openBrowser is PASSED
+
+2021-07-23 16:12:48 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-07-23 16:12:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 16:13:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.serpwatch.io/login'
+
+2021-07-23 16:13:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:13:01 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 16:13:01 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.openBrowser is PASSED
+
+2021-07-23 16:13:01 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_sign in_email"), LoginUsername): Text 'ayatullah.arul@gmail.com' is set on object 'Object Repository/LoginPage/input_sign in_email'
+
+2021-07-23 16:13:02 - [MESSAGE][PASSED] - Text 'ayatullah.arul@gmail.com' is set on object 'Object Repository/LoginPage/input_sign in_email'
+
+2021-07-23 16:13:02 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/input_sign in_password"), "abc"): Text 'abc' is set on object 'Object Repository/LoginPage/input_sign in_password'
+
+2021-07-23 16:13:03 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/LoginPage/input_sign in_password'
+
+2021-07-23 16:13:03 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/button_login")): Object: 'Object Repository/LoginPage/button_login' is clicked on
+
+2021-07-23 16:13:06 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_login' is clicked on
+
+2021-07-23 16:13:06 - [TEST_STEP][PASSED] - waitForPageLoad(Timeout): Wait for page load successfully
+
+2021-07-23 16:13:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 16:13:06 - [TEST_STEP][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser(): com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED
+
+2021-07-23 16:13:09 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-23 16:13:09 - [MESSAGE][PASSED] - com.helper.browserhelper.CustomBrowser.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-23 15:59:57 - [TEST_SUITE][PASSED] - LoginNegativeTestSuite: Test Cases/RegisterAndLogin/Negative/TS-LGN-25-LoginWithWrongPasswordTestCase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Remove domain name from the domain field.
+Expected: User cannot proceed to 2nd page of the setup</description>
+   <name>TS-EPR-32-RemoveDomainNameFromTheDomainFieldTestCase</name>
+   <tag>edit project</tag>
+   <comment></comment>
+   <testCaseGuid>d7cefe7e-1f9c-4330-9588-6b6206127ce8</testCaseGuid>
+</TestCaseEntity>

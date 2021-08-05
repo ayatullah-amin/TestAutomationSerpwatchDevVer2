@@ -17,3 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CustomKeywords.'com.helper.browserhelper.CustomBrowser.openBrowser'()
+
+WebUI.waitForElementVisible(findTestObject('LoginPage/button_login_with_facebook'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('LoginPage/button_login_with_facebook'))
+
+WebUI.delay(40)
+
+WebUI.setText(findTestObject('LoginPage/Facebook_Login/input_Login ke Facebook_email'), 'tiluaniche@gmail.com')
+
+WebUI.setText(findTestObject('LoginPage/Facebook_Login/input_Login ke Facebook_pass'), '')
+
+WebUI.click(findTestObject('LoginPage/Facebook_Login/button_login_facebook'))
+

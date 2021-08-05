@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Remove all keywords from the project.
+Expected: User cannot proceed to 2nd page of the setup</description>
+   <name>TS-EPR-28-RemoveAllKeywordsFromTheProjectTestCase</name>
+   <tag>edit project</tag>
+   <comment></comment>
+   <testCaseGuid>3e657f97-8b82-4c02-a0a1-10bd6d934a24</testCaseGuid>
+</TestCaseEntity>

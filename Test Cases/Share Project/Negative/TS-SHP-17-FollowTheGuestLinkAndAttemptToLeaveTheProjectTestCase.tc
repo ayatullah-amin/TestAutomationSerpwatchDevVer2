@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Follow the guest link, attempt to leave the project.
+Expected: User is unable to leave the project, error is displayed.</description>
+   <name>TS-SHP-17-FollowTheGuestLinkAndAttemptToLeaveTheProjectTestCase</name>
+   <tag>share project</tag>
+   <comment></comment>
+   <testCaseGuid>b2efee9e-4c66-4a77-8761-dc2187745640</testCaseGuid>
+</TestCaseEntity>

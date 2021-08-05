@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/LoginPage/button_get_started",
+      "brokenLocator": "//body[@id\u003d\u0027login\u0027]/div[2]/p/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Get started Free\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210723_171908/LoginWithEmailTestSuites/LoginNegativeTestSuite/20210723_171908/Object Repository/LoginPage/button_get_started_link.png"
+    }
+  ]
+}

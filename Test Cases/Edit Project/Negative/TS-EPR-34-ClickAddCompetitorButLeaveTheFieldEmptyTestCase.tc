@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Click add competitor but leave the field empty.
+Expected: User cannot proceed to 2nd page of the setup</description>
+   <name>TS-EPR-34-ClickAddCompetitorButLeaveTheFieldEmptyTestCase</name>
+   <tag>edit project</tag>
+   <comment></comment>
+   <testCaseGuid>b983f834-69dd-4d3c-8942-ed8956553ce6</testCaseGuid>
+</TestCaseEntity>

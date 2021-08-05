@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Increase usage above the checks limit of the user.
+Expected: User cannot complete project setup, prompted to upgrade the plan</description>
+   <name>TS-EPR-37-IncreaseUsageAboveTheChecksLimitOfTheUserTestCase</name>
+   <tag>edit project</tag>
+   <comment></comment>
+   <testCaseGuid>03a94b85-75ec-4ae4-9060-2edc21d6a16b</testCaseGuid>
+</TestCaseEntity>

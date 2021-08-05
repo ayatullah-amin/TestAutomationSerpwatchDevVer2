@@ -149,4 +149,124 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create Project/Negative/TS-CPR-32-UploadCsvWithoutSelectingAnyKeywordsTestCase</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>32788cad-80e0-47a1-b6ec-a051edbf8713</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit Project/Negative/TS-EPR-28-RemoveAllKeywordsFromTheProjectTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0e179c21-18fc-493c-b4ad-b8ce28e4a269</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit Project/Negative/TS-EPR-29-AddKeywordContainingLessThan2CharactersTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>19681a75-2beb-4d7e-a4a4-6aa89a0a0cde</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit Project/Negative/TS-EPR-30-ChangeProjectNameToLessThan2CharactersLongTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2dc4eba1-84d4-46e8-a595-5adfc5ed201f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit Project/Negative/TS-EPR-31-DeleteProjectNameTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b877a43f-7575-4bdb-b5cc-bf805670a8f5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit Project/Negative/TS-EPR-32-RemoveDomainNameFromTheDomainFieldTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>748454e1-c26c-4240-aacd-24b9cfd7ab48</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit Project/Negative/TS-EPR-33-ChangeDomainNameToAnInvalidFormatTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9c53c89c-14aa-4578-8975-d28ef44deaea</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit Project/Negative/TS-EPR-34-ClickAddCompetitorButLeaveTheFieldEmptyTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aa85aa37-d98f-45e4-a99f-4cde248f5dfc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit Project/Negative/TS-EPR-35-DeselectAllEnginesOrDevicesFromExistingCombosTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6f5a5ec1-dc52-40d2-85b4-93dea2ba5b32</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit Project/Negative/TS-EPR-36-UploadCsvWithoutSelectingAnyKeywordsFromItTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0b1e90c1-7c18-4a3e-9d6c-fc782a588ba9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit Project/Negative/TS-EPR-37-IncreaseUsageAboveChecksLimitOfTheUserTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>61a68e24-5c7f-4cab-aa94-02cac882976c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create Project/Negative/TS-CPR-24-CreateProjectWithoutFillingNameFieldTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ef7a5137-74ef-4435-a043-17fd0a423f21</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create Project/Negative/TS-CPR-25-CreateProjectWithoutFillingDomainFieldTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>94f63117-db19-4504-a478-ef5810cf6b84</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create Project/Negative/TS-CPR-26-CreateProjectWithoutEnteringAnyKeywordsTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>96c5659b-17b4-46e0-80a9-03687c8dc027</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create Project/Negative/TS-CPR-27-CreateProjectAndClickAddCompetitorButDoNotFillFieldTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ca5209a3-698a-4aca-849b-2939453f083f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create Project/Negative/TS-CPR-28-CreateProjectWithoutAnyEnginesOrDevicesSelectedTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f73186fc-a94e-4748-b59f-aec4889ef371</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create Project/Negative/TS-CPR-29-CreateProjectWithNameFieldWithLessThan2CharactersTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3d8742c4-4246-4388-9e4a-46ef36cccb30</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create Project/Negative/TS-CPR-30-CreateProjectUsingInvalidDomainFormatInDomainFieldTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>86807c83-2555-4ca4-8418-9988f6006def</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create Project/Negative/TS-CPR-31-CreateProjectWithKeywordLessThan2CharactersTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5b23cdf9-f223-4861-86d5-447217cc8649</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create Project/Negative/TS-CPR-32-UploadCsvWithoutSelectingAnyKeywordsTestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>108267db-a39c-4475-bbf8-0f16e8bfd431</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create Project/Negative/TS-CPR-33-CreateProjectThatIsGoingOverTheChecksLimitOfTheUsersPlanTestCase</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

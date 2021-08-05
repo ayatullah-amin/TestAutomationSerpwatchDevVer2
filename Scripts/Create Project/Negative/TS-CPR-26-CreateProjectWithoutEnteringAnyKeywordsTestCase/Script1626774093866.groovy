@@ -25,18 +25,15 @@ WebUI.waitForElementVisible(findTestObject('CreateNewProject/popup_frame_choose_
 
 WebUI.click(findTestObject('CreateNewProject/button_domain'))
 
-WebUI.waitForElementPresent(findTestObject('CreateNewProject/popup_window_creating_project'), GlobalVariable.Timeout)
-
-WebUI.setText(findTestObject('CreateNewProject/FormPage_1/input_domain_name'), '')
-
-WebUI.waitForElementVisible(findTestObject('CreateNewProject/FormPage_1/input_add_your_keyword'), GlobalVariable.Timeout)
-
-WebUI.setText(findTestObject('CreateNewProject/FormPage_1/input_add_your_keyword'), '')
-
-WebUI.setText(findTestObject('CreateNewProject/FormPage_1/input_keyword_suggestions'), '')
+WebUI.waitForElementPresent(findTestObject('CreateNewProject/FormPage_1/button_next'), GlobalVariable.Timeout)
 
 WebUI.click(findTestObject('CreateNewProject/FormPage_1/button_next'))
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+WebUI.focus(findTestObject('CreateNewProject/FormPage_1/input_domain_name'))
 
 WebUI.delay(3)
 
 CustomKeywords.'com.helper.browserhelper.CustomBrowser.closeBrowser'()
+

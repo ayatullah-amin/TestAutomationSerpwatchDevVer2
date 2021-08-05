@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CreateNewProject/button_add_project",
+      "brokenLocator": "(//button[@id\u003d\u0027projectOptions\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027results\u0027]/div/div[10]/div/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210729_182642/AllTestSuites/RunAllTestCasesTestSuite/20210729_182642/Object Repository/CreateNewProject/button_add_project_idRelative.png"
+    }
+  ]
+}

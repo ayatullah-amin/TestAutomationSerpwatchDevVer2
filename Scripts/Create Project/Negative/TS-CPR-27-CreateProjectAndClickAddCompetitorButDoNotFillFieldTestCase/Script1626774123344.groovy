@@ -25,19 +25,23 @@ WebUI.waitForElementVisible(findTestObject('CreateNewProject/popup_frame_choose_
 
 WebUI.click(findTestObject('CreateNewProject/button_domain'))
 
-WebUI.waitForElementPresent(findTestObject('CreateNewProject/popup_window_creating_project'), GlobalVariable.Timeout)
+WebUI.waitForElementPresent(findTestObject('CreateNewProject/FormPage_1/input_project_name'), GlobalVariable.Timeout)
 
-WebUI.setText(findTestObject('CreateNewProject/FormPage_1/input_domain_name'), 'detik.com')
+WebUI.setText(findTestObject('CreateNewProject/FormPage_1/input_project_name'), GlobalVariable.ProjectNameText)
 
-WebUI.waitForElementVisible(findTestObject('CreateNewProject/FormPage_1/input_add_your_keyword'), GlobalVariable.Timeout)
+WebUI.setText(findTestObject('CreateNewProject/FormPage_1/input_domain_name'), GlobalVariable.DomainText1)
 
-WebUI.setText(findTestObject('CreateNewProject/FormPage_1/input_add_your_keyword'), 'politik')
+WebUI.click(findTestObject('CreateNewProject/FormPage_1/button_add_competitor'))
 
-WebUI.setText(findTestObject('CreateNewProject/FormPage_1/input_keyword_suggestions'), 'partai')
+WebUI.setText(findTestObject('CreateNewProject/FormPage_1/input_add_your_keyword'), GlobalVariable.AddYourKeywordText)
 
 WebUI.click(findTestObject('CreateNewProject/FormPage_1/button_next'))
 
-WebUI.setText(findTestObject('CreateNewProject/FormPage_1/input_add_your_keyword'), 'merdeka')
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+WebUI.focus(findTestObject('CreateNewProject/FormPage_1/input_domain_competitors'))
 
 WebUI.delay(3)
+
+CustomKeywords.'com.helper.browserhelper.CustomBrowser.closeBrowser'()
 

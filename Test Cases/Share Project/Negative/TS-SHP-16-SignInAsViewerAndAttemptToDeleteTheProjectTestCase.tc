@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sign in as viewer and attempt to delete the project.
+Expected: User is unable to delete project. Only owner is able to delete the project.</description>
+   <name>TS-SHP-16-SignInAsViewerAndAttemptToDeleteTheProjectTestCase</name>
+   <tag>share project</tag>
+   <comment></comment>
+   <testCaseGuid>a607b531-6e28-4b5f-9aa1-3c9d120b7479</testCaseGuid>
+</TestCaseEntity>

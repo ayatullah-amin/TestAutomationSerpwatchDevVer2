@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Change project name to less than 2 characters long.
+Expected: User cannot proceed to 2nd page of the setup</description>
+   <name>TS-EPR-30-ChangeProjectNameToLessThan2CharactersLongTestCase</name>
+   <tag>edit project</tag>
+   <comment></comment>
+   <testCaseGuid>aa18cf20-a349-4214-ad19-648c4f3ba4cc</testCaseGuid>
+</TestCaseEntity>

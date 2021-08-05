@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_notification_project_1</name>
+   <tag></tag>
+   <elementGuidId>e33fdd3c-9ab8-470d-9d48-f478dca549e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.lean-bell-notification</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='732']/div[10]/div[2]/div/a[4]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lean-bell-notification</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;reorder-projects-container&quot;)/div[@id=&quot;732&quot;]/div[@class=&quot;table-small projects-last-cell&quot;]/div[@class=&quot;table-cell&quot;]/div[@class=&quot;wrap-action-icon&quot;]/a[@class=&quot;btn btn-xs btn-notification-project&quot;]/i[@class=&quot;lean-bell-notification&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='732']/div[10]/div[2]/div/a[4]/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[4]/i</value>
+   </webElementXpaths>
+</WebElementEntity>

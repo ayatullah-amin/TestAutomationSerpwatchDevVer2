@@ -24,4 +24,19 @@
       <initValue>30</initValue>
       <name>Timeout</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>A valid domain name</description>
+      <initValue>'goal.com'</initValue>
+      <name>DomainText1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Add your keyword text</description>
+      <initValue>'player'</initValue>
+      <name>AddYourKeywordText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>A valid project name</description>
+      <initValue>'Sample Project'</initValue>
+      <name>ProjectNameText</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

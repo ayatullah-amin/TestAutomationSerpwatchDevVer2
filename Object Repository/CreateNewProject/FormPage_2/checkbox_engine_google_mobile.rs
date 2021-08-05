@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_engine_google_mobile</name>
+   <tag></tag>
+   <elementGuidId>f8d90e71-25b7-4722-81d9-294bf331a0ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='setupEngineTable_1']/tbody/tr[4]/td[3]/div/label</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;setupEngineTable_1&quot;)/tbody[1]/tr[4]/td[@class=&quot;pl-4&quot;]/div[@class=&quot;custom-control custom-checkbox checkbox-style-2&quot;]/label[@class=&quot;custom-control-label&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-control-label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>google.com mobile_mobile_1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;setupEngineTable_1&quot;)/tbody[1]/tr[4]/td[@class=&quot;pl-4&quot;]/div[@class=&quot;custom-control custom-checkbox checkbox-style-2&quot;]/label[@class=&quot;custom-control-label&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='setupEngineTable_1']/tbody/tr[4]/td[3]/div/label</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td[3]/div/label</value>
+   </webElementXpaths>
+</WebElementEntity>

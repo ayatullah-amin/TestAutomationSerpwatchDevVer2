@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sign in as viewer and attempt to edit the project.
+Expected: User is unable to edit the project in any way.</description>
+   <name>TS-SHP-15-SignInAsViewerAndAttemptToEditTheProjectTestCase</name>
+   <tag>share project</tag>
+   <comment></comment>
+   <testCaseGuid>dcb81bbe-5b04-427f-aac8-7f2131b19130</testCaseGuid>
+</TestCaseEntity>

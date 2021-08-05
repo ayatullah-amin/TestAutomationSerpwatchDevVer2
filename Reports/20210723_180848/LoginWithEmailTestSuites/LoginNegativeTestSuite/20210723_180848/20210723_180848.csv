@@ -1,0 +1,163 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginNegativeTestSuite,Firefox 89.0,Negative Test Suites,,2021-07-23 18:08:52,2021-07-23 18:21:29,12m - 37.006s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-24-LoginWithUnregisteredEmailTestCase,Firefox 89.0,Login with Unregistered Email Test Case,login,2021-07-23 18:08:53,2021-07-23 18:09:27,34.329s,PASSED
+com.helper.browserhelper.CustomBrowser.openBrowser(),Firefox 89.0,,,2021-07-23 18:08:53,2021-07-23 18:09:15,21.837s,PASSED
+"setText(findTestObject(""LoginPage/input_sign in_email""), ""aaa@gmail.com"")",Firefox 89.0,,,2021-07-23 18:09:15,2021-07-23 18:09:17,1.390s,PASSED
+"setText(findTestObject(""LoginPage/input_sign in_password""), ""abc"")",Firefox 89.0,,,2021-07-23 18:09:17,2021-07-23 18:09:18,1.053s,PASSED
+"click(findTestObject(""LoginPage/button_login""))",Firefox 89.0,,,2021-07-23 18:09:18,2021-07-23 18:09:24,6.024s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:09:24,2021-07-23 18:09:24,0.129s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 89.0,,,2021-07-23 18:09:24,2021-07-23 18:09:27,3.358s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-25-LoginWithWrongPasswordTestCase,Firefox 89.0,Login With Wrong Password,login,2021-07-23 18:09:27,2021-07-23 18:09:56,28.406s,PASSED
+com.helper.browserhelper.CustomBrowser.openBrowser(),Firefox 89.0,,,2021-07-23 18:09:28,2021-07-23 18:09:44,16.598s,PASSED
+"setText(findTestObject(""LoginPage/input_sign in_email""), LoginUsername)",Firefox 89.0,,,2021-07-23 18:09:44,2021-07-23 18:09:45,0.924s,PASSED
+"setText(findTestObject(""LoginPage/input_sign in_password""), ""abc"")",Firefox 89.0,,,2021-07-23 18:09:45,2021-07-23 18:09:46,0.957s,PASSED
+"click(findTestObject(""LoginPage/button_login""))",Firefox 89.0,,,2021-07-23 18:09:46,2021-07-23 18:09:52,5.763s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:09:52,2021-07-23 18:09:52,0.038s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 89.0,,,2021-07-23 18:09:52,2021-07-23 18:09:56,3.687s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-12-RegisterWithWrongEmailFormatTestCase,Firefox 89.0,RegisterWithWrongEmailFormat,register,2021-07-23 18:09:56,2021-07-23 18:11:05,1m - 8.982s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 89.0,,,2021-07-23 18:09:56,2021-07-23 18:10:52,56.254s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:10:52,2021-07-23 18:10:52,0.032s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aabbbccc"")",Firefox 89.0,,,2021-07-23 18:10:52,2021-07-23 18:10:53,0.831s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaabc"")",Firefox 89.0,,,2021-07-23 18:10:53,2021-07-23 18:10:55,1.546s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaabbb"")",Firefox 89.0,,,2021-07-23 18:10:55,2021-07-23 18:10:56,1.060s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaabbb"")",Firefox 89.0,,,2021-07-23 18:10:56,2021-07-23 18:10:57,1.172s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Firefox 89.0,,,2021-07-23 18:10:57,2021-07-23 18:10:58,0.753s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 89.0,,,2021-07-23 18:10:58,2021-07-23 18:11:00,1.983s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:11:00,2021-07-23 18:11:00,0.027s,PASSED
+delay(3),Firefox 89.0,,,2021-07-23 18:11:00,2021-07-23 18:11:03,3.046s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 89.0,,,2021-07-23 18:11:03,2021-07-23 18:11:05,1.881s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-13-RegisterWithPasswordUnder6CharactersTestCase,Firefox 89.0,RegisterWithPasswordUnderSixCharacters,register,2021-07-23 18:11:05,2021-07-23 18:12:12,1m - 6.988s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 89.0,,,2021-07-23 18:11:05,2021-07-23 18:11:58,52.580s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:11:58,2021-07-23 18:11:58,0.042s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aabbbccc"")",Firefox 89.0,,,2021-07-23 18:11:58,2021-07-23 18:11:59,1.101s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Firefox 89.0,,,2021-07-23 18:11:59,2021-07-23 18:12:00,0.965s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaa"")",Firefox 89.0,,,2021-07-23 18:12:00,2021-07-23 18:12:01,0.993s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaa"")",Firefox 89.0,,,2021-07-23 18:12:01,2021-07-23 18:12:02,0.939s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Firefox 89.0,,,2021-07-23 18:12:02,2021-07-23 18:12:02,0.845s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 89.0,,,2021-07-23 18:12:02,2021-07-23 18:12:07,4.475s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:12:07,2021-07-23 18:12:07,0.067s,PASSED
+delay(3),Firefox 89.0,,,2021-07-23 18:12:07,2021-07-23 18:12:10,3.013s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 89.0,,,2021-07-23 18:12:10,2021-07-23 18:12:12,1.546s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-14-RegisterWithNameUnder3CharactersTestCase,Firefox 89.0,RegisterWithNameUnder3CharactersTestCase,register,2021-07-23 18:12:12,2021-07-23 18:13:18,1m - 6.144s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 89.0,,,2021-07-23 18:12:12,2021-07-23 18:13:04,52.253s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:13:04,2021-07-23 18:13:04,0.022s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aa"")",Firefox 89.0,,,2021-07-23 18:13:04,2021-07-23 18:13:05,0.778s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Firefox 89.0,,,2021-07-23 18:13:05,2021-07-23 18:13:06,0.973s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Firefox 89.0,,,2021-07-23 18:13:06,2021-07-23 18:13:07,0.926s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaaaaa"")",Firefox 89.0,,,2021-07-23 18:13:07,2021-07-23 18:13:08,0.911s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Firefox 89.0,,,2021-07-23 18:13:08,2021-07-23 18:13:09,0.651s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 89.0,,,2021-07-23 18:13:09,2021-07-23 18:13:12,3.008s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:13:12,2021-07-23 18:13:12,0.139s,PASSED
+delay(3),Firefox 89.0,,,2021-07-23 18:13:12,2021-07-23 18:13:15,3.019s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 89.0,,,2021-07-23 18:13:15,2021-07-23 18:13:18,3.004s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-15-RegisterWithInvalidNameFormatTestCase,Firefox 89.0,"Register With Invalid Name Format.
+Expected: Display error message ""The name format is invalid"" below the Name field.",register,2021-07-23 18:13:18,2021-07-23 18:14:27,1m - 9.073s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 89.0,,,2021-07-23 18:13:18,2021-07-23 18:14:12,53.629s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:14:12,2021-07-23 18:14:12,0.033s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""@#$@#$"")",Firefox 89.0,,,2021-07-23 18:14:12,2021-07-23 18:14:13,1.172s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Firefox 89.0,,,2021-07-23 18:14:13,2021-07-23 18:14:14,0.930s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Firefox 89.0,,,2021-07-23 18:14:14,2021-07-23 18:14:15,0.918s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaaaaa"")",Firefox 89.0,,,2021-07-23 18:14:15,2021-07-23 18:14:16,0.885s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Firefox 89.0,,,2021-07-23 18:14:16,2021-07-23 18:14:16,0.644s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 89.0,,,2021-07-23 18:14:16,2021-07-23 18:14:22,5.803s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:14:22,2021-07-23 18:14:22,0.023s,PASSED
+delay(3),Firefox 89.0,,,2021-07-23 18:14:22,2021-07-23 18:14:25,3.016s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 89.0,,,2021-07-23 18:14:25,2021-07-23 18:14:27,1.559s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-16-RegisterWithoutAcceptingToSTestCase,Firefox 89.0,RegisterWithoutAcceptingToSTestCase,register,2021-07-23 18:14:27,2021-07-23 18:15:29,1m - 1.802s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 89.0,,,2021-07-23 18:14:27,2021-07-23 18:15:19,51.492s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:15:19,2021-07-23 18:15:19,0.027s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aabbbccc"")",Firefox 89.0,,,2021-07-23 18:15:19,2021-07-23 18:15:20,0.951s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Firefox 89.0,,,2021-07-23 18:15:20,2021-07-23 18:15:21,0.967s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Firefox 89.0,,,2021-07-23 18:15:21,2021-07-23 18:15:22,0.906s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaaaaa"")",Firefox 89.0,,,2021-07-23 18:15:22,2021-07-23 18:15:23,0.925s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 89.0,,,2021-07-23 18:15:23,2021-07-23 18:15:23,0.622s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:15:23,2021-07-23 18:15:23,0.018s,PASSED
+delay(3),Firefox 89.0,,,2021-07-23 18:15:23,2021-07-23 18:15:26,3.015s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 89.0,,,2021-07-23 18:15:26,2021-07-23 18:15:29,2.337s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-17-RegisterWithNotMatchingPasswordConfirmTestCase,Firefox 89.0,RegisterWithNotMatchingPasswordConfirmTestCase,register,2021-07-23 18:15:29,2021-07-23 18:16:34,1m - 5.216s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 89.0,,,2021-07-23 18:15:29,2021-07-23 18:16:20,50.768s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:16:20,2021-07-23 18:16:20,0.089s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aabbbccc"")",Firefox 89.0,,,2021-07-23 18:16:20,2021-07-23 18:16:21,1.233s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Firefox 89.0,,,2021-07-23 18:16:21,2021-07-23 18:16:22,0.945s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Firefox 89.0,,,2021-07-23 18:16:22,2021-07-23 18:16:23,0.909s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaabbb"")",Firefox 89.0,,,2021-07-23 18:16:23,2021-07-23 18:16:24,0.899s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Firefox 89.0,,,2021-07-23 18:16:24,2021-07-23 18:16:25,0.659s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 89.0,,,2021-07-23 18:16:25,2021-07-23 18:16:29,3.763s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:16:29,2021-07-23 18:16:29,0.151s,PASSED
+delay(3),Firefox 89.0,,,2021-07-23 18:16:29,2021-07-23 18:16:32,3.020s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 89.0,,,2021-07-23 18:16:32,2021-07-23 18:16:34,2.179s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-18-RegisterWithoutFillingPasswordConfFieldTestCase,Firefox 89.0,RegisterWithoutFillingPasswordConfField,register,2021-07-23 18:16:34,2021-07-23 18:17:35,1m - 0.627s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 89.0,,,2021-07-23 18:16:34,2021-07-23 18:17:25,50.978s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:17:25,2021-07-23 18:17:25,0.028s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aabbbccc"")",Firefox 89.0,,,2021-07-23 18:17:25,2021-07-23 18:17:26,0.853s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Firefox 89.0,,,2021-07-23 18:17:26,2021-07-23 18:17:27,0.952s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Firefox 89.0,,,2021-07-23 18:17:27,2021-07-23 18:17:28,0.902s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Firefox 89.0,,,2021-07-23 18:17:28,2021-07-23 18:17:29,0.606s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 89.0,,,2021-07-23 18:17:29,2021-07-23 18:17:29,0.640s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:17:29,2021-07-23 18:17:29,0.018s,PASSED
+delay(3),Firefox 89.0,,,2021-07-23 18:17:29,2021-07-23 18:17:32,3.008s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 89.0,,,2021-07-23 18:17:32,2021-07-23 18:17:35,2.197s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-19-RegisterWithNameFieldEmptyTestCase,Firefox 89.0,RegisterWithNameFieldEmpty,register,2021-07-23 18:17:35,2021-07-23 18:18:38,1m - 3.225s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 89.0,,,2021-07-23 18:17:35,2021-07-23 18:18:26,51.257s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:18:26,2021-07-23 18:18:26,0.044s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), """")",Firefox 89.0,,,2021-07-23 18:18:26,2021-07-23 18:18:28,1.488s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Firefox 89.0,,,2021-07-23 18:18:28,2021-07-23 18:18:29,0.716s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Firefox 89.0,,,2021-07-23 18:18:29,2021-07-23 18:18:29,0.908s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaaaaa"")",Firefox 89.0,,,2021-07-23 18:18:29,2021-07-23 18:18:30,0.892s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Firefox 89.0,,,2021-07-23 18:18:30,2021-07-23 18:18:31,0.609s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 89.0,,,2021-07-23 18:18:31,2021-07-23 18:18:32,1.280s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:18:32,2021-07-23 18:18:32,0.019s,PASSED
+delay(3),Firefox 89.0,,,2021-07-23 18:18:32,2021-07-23 18:18:35,3.014s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 89.0,,,2021-07-23 18:18:35,2021-07-23 18:18:38,2.522s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-20-RegisterWithEmailFieldEmptyTestCase,Firefox 89.0,"Register With Email Field Empty.
+Expected: Display error message ""please fill out this field"" on the email field.",register,2021-07-23 18:18:38,2021-07-23 18:19:39,1m - 1.178s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 89.0,,,2021-07-23 18:18:38,2021-07-23 18:19:29,50.533s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:19:29,2021-07-23 18:19:29,0.050s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aaa"")",Firefox 89.0,,,2021-07-23 18:19:29,2021-07-23 18:19:30,0.854s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), """")",Firefox 89.0,,,2021-07-23 18:19:30,2021-07-23 18:19:31,0.911s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password""), ""aaaaaa"")",Firefox 89.0,,,2021-07-23 18:19:31,2021-07-23 18:19:31,0.681s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaaaaa"")",Firefox 89.0,,,2021-07-23 18:19:31,2021-07-23 18:19:32,0.901s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Firefox 89.0,,,2021-07-23 18:19:32,2021-07-23 18:19:33,0.652s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 89.0,,,2021-07-23 18:19:33,2021-07-23 18:19:34,0.626s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:19:34,2021-07-23 18:19:34,0.022s,PASSED
+delay(3),Firefox 89.0,,,2021-07-23 18:19:34,2021-07-23 18:19:37,3.011s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 89.0,,,2021-07-23 18:19:37,2021-07-23 18:19:39,2.380s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-21-RegisterWithPasswordFieldEmptyTestCase,Firefox 89.0,RegisterWithPasswordFieldEmpty,register,2021-07-23 18:19:39,2021-07-23 18:20:41,1m - 2.013s,PASSED
+com.helper.browserhelper.CustomBrowser.openRegisterPage(),Firefox 89.0,,,2021-07-23 18:19:39,2021-07-23 18:20:31,51.302s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:20:31,2021-07-23 18:20:31,0.022s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_name""), ""aabbbccc"")",Firefox 89.0,,,2021-07-23 18:20:31,2021-07-23 18:20:32,0.826s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_email""), ""aaa@gmail.com"")",Firefox 89.0,,,2021-07-23 18:20:32,2021-07-23 18:20:32,0.920s,PASSED
+"setText(findTestObject(""RegisterPage/input_signup_password_confirmation""), ""aaaaaa"")",Firefox 89.0,,,2021-07-23 18:20:32,2021-07-23 18:20:33,0.909s,PASSED
+"check(findTestObject(""RegisterPage/checkbox_agreement""))",Firefox 89.0,,,2021-07-23 18:20:33,2021-07-23 18:20:34,0.642s,PASSED
+"click(findTestObject(""RegisterPage/button_register""))",Firefox 89.0,,,2021-07-23 18:20:34,2021-07-23 18:20:35,0.642s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:20:35,2021-07-23 18:20:35,0.015s,PASSED
+delay(3),Firefox 89.0,,,2021-07-23 18:20:35,2021-07-23 18:20:38,3.009s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 89.0,,,2021-07-23 18:20:38,2021-07-23 18:20:41,3.288s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-24-LoginWithUnregisteredEmailTestCase,Firefox 89.0,Login with Unregistered Email Test Case,login,2021-07-23 18:20:41,2021-07-23 18:21:05,24.146s,PASSED
+com.helper.browserhelper.CustomBrowser.openBrowser(),Firefox 89.0,,,2021-07-23 18:20:41,2021-07-23 18:20:55,13.605s,PASSED
+"setText(findTestObject(""LoginPage/input_sign in_email""), ""aaa@gmail.com"")",Firefox 89.0,,,2021-07-23 18:20:55,2021-07-23 18:20:55,0.842s,PASSED
+"setText(findTestObject(""LoginPage/input_sign in_password""), ""abc"")",Firefox 89.0,,,2021-07-23 18:20:55,2021-07-23 18:20:56,0.928s,PASSED
+"click(findTestObject(""LoginPage/button_login""))",Firefox 89.0,,,2021-07-23 18:20:56,2021-07-23 18:21:03,6.182s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:21:03,2021-07-23 18:21:03,0.029s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 89.0,,,2021-07-23 18:21:03,2021-07-23 18:21:05,2.552s,PASSED
+,,,,,,,
+Test Cases/RegisterAndLogin/Negative/TS-LGN-25-LoginWithWrongPasswordTestCase,Firefox 89.0,Login With Wrong Password,login,2021-07-23 18:21:05,2021-07-23 18:21:29,24.269s,PASSED
+com.helper.browserhelper.CustomBrowser.openBrowser(),Firefox 89.0,,,2021-07-23 18:21:05,2021-07-23 18:21:20,14.687s,PASSED
+"setText(findTestObject(""LoginPage/input_sign in_email""), LoginUsername)",Firefox 89.0,,,2021-07-23 18:21:20,2021-07-23 18:21:21,0.887s,PASSED
+"setText(findTestObject(""LoginPage/input_sign in_password""), ""abc"")",Firefox 89.0,,,2021-07-23 18:21:21,2021-07-23 18:21:22,0.937s,PASSED
+"click(findTestObject(""LoginPage/button_login""))",Firefox 89.0,,,2021-07-23 18:21:22,2021-07-23 18:21:26,4.340s,PASSED
+waitForPageLoad(Timeout),Firefox 89.0,,,2021-07-23 18:21:26,2021-07-23 18:21:26,0.066s,PASSED
+com.helper.browserhelper.CustomBrowser.closeBrowser(),Firefox 89.0,,,2021-07-23 18:21:26,2021-07-23 18:21:29,3.340s,PASSED

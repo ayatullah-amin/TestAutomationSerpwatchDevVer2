@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Deselect all engines/devices from existing combos.
+Expected: User cannot proceed to 3rd page of the setup</description>
+   <name>TS-EPR-35-DeselectAllEnginesOrDevicesFromExistingCombosTestCase</name>
+   <tag>edit project</tag>
+   <comment></comment>
+   <testCaseGuid>3f063662-5452-473f-836e-ed14c9f84a05</testCaseGuid>
+</TestCaseEntity>
